@@ -1,0 +1,28 @@
+Started GET "/" for ::1 at 2023-01-27 14:43:47 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/hakudan/.gem/ruby/3.1.3/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.1ms | Allocations: 584)
+Completed 200 OK in 25ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 4631)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-27 14:43:58 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/hakudan/.gem/ruby/3.1.3/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.1ms | Allocations: 281)
+Completed 200 OK in 9ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 963)
+
+
+Started GET "/" for ::1 at 2023-01-27 14:43:58 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/hakudan/.gem/ruby/3.1.3/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.2ms | Allocations: 16)
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 245)
+
+
+Started GET "/" for ::1 at 2023-01-27 14:43:58 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/hakudan/.gem/ruby/3.1.3/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 15)
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
