@@ -72,3 +72,61 @@ Processing by BooksController#index as HTML
 Completed 200 OK in 275ms (Views: 268.9ms | ActiveRecord: 0.2ms | Allocations: 70705)
 
 
+Started GET "/" for 127.0.0.1 at 2023-01-27 15:08:02 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/hakudan/.gem/ruby/3.1.3/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.2ms | Allocations: 476)
+Completed 200 OK in 15ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 3325)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-27 15:08:06 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/hakudan/.gem/ruby/3.1.3/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.4ms | Allocations: 281)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 965)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2023-01-27 15:08:11 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_in"):
+  
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to DeviseCreateUsers (20230127081943)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime(6), "remember_created_at" datetime(6), "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (1.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230127081943"]]
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2023-01-27 15:20:07 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/hakudan/.gem/ruby/3.1.3/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.3ms | Allocations: 475)
+Completed 200 OK in 17ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 3322)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-27 15:20:15 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/hakudan/.gem/ruby/3.1.3/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.3ms | Allocations: 281)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 965)
+
+
+Started GET "/user/sign_in" for 127.0.0.1 at 2023-01-27 15:20:19 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/user/sign_in"):
+  
+Started GET "/users/sign_in" for 127.0.0.1 at 2023-01-27 15:20:27 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 2.1ms | Allocations: 668)
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 71.6ms | Allocations: 7424)
+  Rendered layout layouts/application.html.erb (Duration: 123.4ms | Allocations: 28160)
+Completed 200 OK in 153ms (Views: 128.2ms | ActiveRecord: 3.0ms | Allocations: 35924)
+
+
