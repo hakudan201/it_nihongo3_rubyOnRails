@@ -130,3 +130,592 @@ Processing by Devise::SessionsController#new as HTML
 Completed 200 OK in 153ms (Views: 128.2ms | ActiveRecord: 3.0ms | Allocations: 35924)
 
 
+Started GET "/" for 127.0.0.1 at 2023-01-27 15:28:30 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/hakudan/.gem/ruby/3.1.3/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.2ms | Allocations: 475)
+Completed 200 OK in 18ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 3344)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-27 15:29:40 +0700
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:8:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for 127.0.0.1 at 2023-01-27 15:29:47 +0700
+  
+ActionController::RoutingError (uninitialized constant ArticlesController
+
+      Object.const_get(camel_cased_word)
+            ^^^^^^^^^^
+Did you mean?  AbstractController
+
+            raise MissingController.new(error.message, error.name)
+            ^^^^^):
+  
+Started GET "/" for 127.0.0.1 at 2023-01-27 15:29:51 +0700
+  
+ActionController::RoutingError (uninitialized constant ArticlesController
+
+      Object.const_get(camel_cased_word)
+            ^^^^^^^^^^
+Did you mean?  AbstractController
+
+            raise MissingController.new(error.message, error.name)
+            ^^^^^):
+  
+Started GET "/" for 127.0.0.1 at 2023-01-27 15:30:03 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/hakudan/.gem/ruby/3.1.3/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.0ms | Allocations: 281)
+Completed 200 OK in 3ms (Views: 1.9ms | Allocations: 911)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2023-01-27 15:32:11 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 101.7ms | Allocations: 21192)
+Completed 200 OK in 108ms (Views: 104.1ms | Allocations: 22133)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2023-01-27 15:33:11 +0700
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:9:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/static_pages" for 127.0.0.1 at 2023-01-27 15:33:12 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/static_pages"):
+  
+Started GET "/" for 127.0.0.1 at 2023-01-27 15:33:18 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+Started GET "/" for 127.0.0.1 at 2023-01-27 15:33:21 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+Started GET "/" for 127.0.0.1 at 2023-01-27 15:34:00 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+Started GET "/" for 127.0.0.1 at 2023-01-27 15:34:56 +0700
+  
+ActionController::RoutingError (uninitialized constant StaticPages
+
+      Object.const_get(camel_cased_word)
+            ^^^^^^^^^^
+Did you mean?  StaticPagesHelper
+
+            raise MissingController.new(error.message, error.name)
+            ^^^^^):
+  
+Started GET "/" for 127.0.0.1 at 2023-01-27 15:35:10 +0700
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:9:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for ::1 at 2023-01-27 15:35:32 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+Started GET "/" for 127.0.0.1 at 2023-01-27 15:38:20 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 1443)
+Completed 200 OK in 5ms (Views: 4.0ms | Allocations: 2042)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-27 15:44:23 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+LoadError (cannot load such file -- test_helper):
+  
+app/controllers/static_pages_controller.rb:1:in `<main>'
+Started GET "/" for 127.0.0.1 at 2023-01-27 15:45:23 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+LoadError (cannot load such file -- test_helper):
+  
+app/controllers/static_pages_controller.rb:1:in `<main>'
+Started GET "/" for 127.0.0.1 at 2023-01-27 15:47:21 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 109)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 889.2ms | Allocations: 25365)
+Completed 500 Internal Server Error in 897ms (Allocations: 27362)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-01-27 15:50:55 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.6ms | Allocations: 282)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 860.5ms | Allocations: 25958)
+Completed 500 Internal Server Error in 878ms (ActiveRecord: 0.0ms | Allocations: 28951)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-01-27 15:51:03 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 7)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 470.8ms | Allocations: 5196)
+Completed 500 Internal Server Error in 475ms (ActiveRecord: 0.0ms | Allocations: 5465)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-01-27 15:51:04 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 456.1ms | Allocations: 4973)
+Completed 500 Internal Server Error in 457ms (ActiveRecord: 0.0ms | Allocations: 5202)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-01-27 15:53:56 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.0ms | Allocations: 283)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 862.8ms | Allocations: 26046)
+Completed 500 Internal Server Error in 904ms (ActiveRecord: 0.0ms | Allocations: 29039)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-01-27 15:57:02 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 282)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 970.7ms | Allocations: 25881)
+Completed 500 Internal Server Error in 988ms (ActiveRecord: 0.0ms | Allocations: 28874)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-01-27 15:57:36 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.7ms | Allocations: 282)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 862.5ms | Allocations: 25934)
+Completed 500 Internal Server Error in 881ms (ActiveRecord: 0.0ms | Allocations: 28927)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-01-27 16:04:12 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.4ms | Allocations: 282)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 810.5ms | Allocations: 25406)
+Completed 200 OK in 825ms (Views: 815.5ms | ActiveRecord: 0.0ms | Allocations: 28448)
+
+
+Started GET "/packs/js/application-e421b4aa3f716bebdab1.js" for 127.0.0.1 at 2023-01-27 16:04:13 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-e421b4aa3f716bebdab1.js"):
+  
+Started GET "/users/sign_in" for 127.0.0.1 at 2023-01-27 16:04:16 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 3.0ms | Allocations: 667)
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 34.4ms | Allocations: 5010)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 550.7ms | Allocations: 9421)
+Completed 200 OK in 576ms (Views: 554.1ms | ActiveRecord: 1.1ms | Allocations: 16749)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2023-01-27 16:04:19 +0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/shared/_error_messages.html.erb (Duration: 1.2ms | Allocations: 202)
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 1.0ms | Allocations: 136)
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 9.2ms | Allocations: 2154)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 536.9ms | Allocations: 6582)
+Completed 200 OK in 543ms (Views: 540.5ms | ActiveRecord: 0.0ms | Allocations: 7836)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2023-01-27 16:04:22 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 131)
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1223)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 509.4ms | Allocations: 5419)
+Completed 200 OK in 515ms (Views: 510.5ms | ActiveRecord: 0.0ms | Allocations: 6099)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2023-01-27 16:04:30 +0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 78)
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1197)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 510.9ms | Allocations: 5400)
+Completed 200 OK in 513ms (Views: 511.6ms | ActiveRecord: 0.0ms | Allocations: 5918)
+
+
+Started POST "/users" for 127.0.0.1 at 2023-01-27 16:04:56 +0700
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"doiquanhieumk@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "doiquanhieumk@gmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.7ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["email", "doiquanhieumk@gmail.com"], ["encrypted_password", "[FILTERED]"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2023-01-27 09:04:56.798354"], ["updated_at", "2023-01-27 09:04:56.798354"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 243ms (ActiveRecord: 3.4ms | Allocations: 10464)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-27 16:04:56 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 9)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 472.0ms | Allocations: 5614)
+Completed 200 OK in 473ms (Views: 472.5ms | ActiveRecord: 0.2ms | Allocations: 5886)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at 2023-01-27 16:05:07 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+Started GET "/users/sign_out" for 127.0.0.1 at 2023-01-27 16:07:47 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+Started GET "/" for 127.0.0.1 at 2023-01-27 16:07:58 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 838.8ms | Allocations: 5058)
+Completed 200 OK in 840ms (Views: 839.1ms | ActiveRecord: 0.2ms | Allocations: 5311)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at 2023-01-27 16:08:04 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+Started GET "/" for 127.0.0.1 at 2023-01-27 16:09:06 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 791.4ms | Allocations: 5065)
+Completed 200 OK in 793ms (Views: 791.9ms | ActiveRecord: 0.2ms | Allocations: 5317)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at 2023-01-27 16:09:11 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
