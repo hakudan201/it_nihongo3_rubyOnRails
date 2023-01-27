@@ -1,27 +1,32 @@
-<%= form_with(model: book) do |form| %>
+<%= form_with(model: book, local: true) do |form| %>
   <% if book.errors.any? %>
-    <div style="color: red">
+    <div id="error_explanation">
       <h2><%= pluralize(book.errors.count, "error") %> prohibited this book from being saved:</h2>
 
       <ul>
-        <% book.errors.each do |error| %>
-          <li><%= error.full_message %></li>
+        <% book.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
         <% end %>
       </ul>
     </div>
   <% end %>
 
-  <div>
-    <%= form.label :title, style: "display: block" %>
+  <div class="field">
+    <%= form.label :title %>
     <%= form.text_field :title %>
   </div>
 
-  <div>
-    <%= form.label :number_of_pages, style: "display: block" %>
+  <div class="field">
+    <%= form.label :number_of_pages %>
     <%= form.number_field :number_of_pages %>
   </div>
 
-  <div>
+  <div class="field">
+    <%= form.label :image %>
+    <%= form.file_field :image %><br>
+  </div>
+
+  <div class="actions">
     <%= form.submit %>
   </div>
 <% end %>
