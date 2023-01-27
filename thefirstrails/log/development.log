@@ -719,3 +719,1907 @@ Started GET "/users/sign_out" for 127.0.0.1 at 2023-01-27 16:09:11 +0700
   
 ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
   
+Started GET "/" for 127.0.0.1 at 2023-01-27 16:24:26 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 282)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 846.6ms | Allocations: 25388)
+Completed 200 OK in 859ms (Views: 850.9ms | ActiveRecord: 0.0ms | Allocations: 28430)
+
+
+Started GET "/packs/js/application-e421b4aa3f716bebdab1.js" for 127.0.0.1 at 2023-01-27 16:24:27 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-e421b4aa3f716bebdab1.js"):
+  
+Started GET "/users/sign_up" for 127.0.0.1 at 2023-01-27 16:24:31 +0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/shared/_error_messages.html.erb (Duration: 1.5ms | Allocations: 237)
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 1.6ms | Allocations: 576)
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 25.3ms | Allocations: 4779)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 523.8ms | Allocations: 9207)
+Completed 200 OK in 548ms (Views: 529.5ms | ActiveRecord: 1.2ms | Allocations: 16236)
+
+
+Started GET "/packs/js/application-e421b4aa3f716bebdab1.js" for 127.0.0.1 at 2023-01-27 16:24:31 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-e421b4aa3f716bebdab1.js"):
+  
+Started GET "/users/sign_in" for 127.0.0.1 at 2023-01-27 16:24:33 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 245)
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 8.2ms | Allocations: 2173)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 497.4ms | Allocations: 6594)
+Completed 200 OK in 503ms (Views: 500.1ms | ActiveRecord: 0.0ms | Allocations: 8096)
+
+
+Started GET "/packs/js/application-e421b4aa3f716bebdab1.js" for 127.0.0.1 at 2023-01-27 16:24:33 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-e421b4aa3f716bebdab1.js"):
+  
+Started POST "/users/sign_in" for 127.0.0.1 at 2023-01-27 16:25:14 +0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"doiquanhieumk@gmail.cpm", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (2.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "doiquanhieumk@gmail.cpm"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 14ms (ActiveRecord: 2.3ms | Allocations: 3586)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"doiquanhieumk@gmail.cpm", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 133)
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1349)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 469.2ms | Allocations: 5661)
+Completed 200 OK in 699ms (Views: 470.0ms | ActiveRecord: 0.0ms | Allocations: 6835)
+
+
+Started GET "/packs/js/application-e421b4aa3f716bebdab1.js" for 127.0.0.1 at 2023-01-27 16:25:15 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-e421b4aa3f716bebdab1.js"):
+  
+Started POST "/users/sign_in" for 127.0.0.1 at 2023-01-27 16:25:27 +0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"doiquanhieumk@gmail.cpm", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "doiquanhieumk@gmail.cpm"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 4ms (ActiveRecord: 0.2ms | Allocations: 1568)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"doiquanhieumk@gmail.cpm", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 131)
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1215)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 469.1ms | Allocations: 5397)
+Completed 200 OK in 697ms (Views: 469.7ms | ActiveRecord: 0.0ms | Allocations: 5909)
+
+
+Started GET "/packs/js/application-e421b4aa3f716bebdab1.js" for 127.0.0.1 at 2023-01-27 16:25:27 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-e421b4aa3f716bebdab1.js"):
+  
+Started GET "/users/sign_up" for 127.0.0.1 at 2023-01-27 16:25:30 +0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 78)
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1199)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 493.9ms | Allocations: 5403)
+Completed 200 OK in 497ms (Views: 495.2ms | ActiveRecord: 0.0ms | Allocations: 5933)
+
+
+Started GET "/packs/js/application-e421b4aa3f716bebdab1.js" for 127.0.0.1 at 2023-01-27 16:25:31 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-e421b4aa3f716bebdab1.js"):
+  
+Started POST "/users" for 127.0.0.1 at 2023-01-27 16:26:05 +0700
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"haku@gmail", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "haku@gmail"], ["LIMIT", 1]]
+  [1m[36mUser Create (3.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["email", "haku@gmail"], ["encrypted_password", "[FILTERED]"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2023-01-27 09:26:06.133073"], ["updated_at", "2023-01-27 09:26:06.133073"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 242ms (ActiveRecord: 4.8ms | Allocations: 7609)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-27 16:26:06 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 526.0ms | Allocations: 5170)
+Completed 200 OK in 528ms (Views: 526.4ms | ActiveRecord: 0.3ms | Allocations: 5422)
+
+
+Started GET "/packs/js/application-e421b4aa3f716bebdab1.js" for 127.0.0.1 at 2023-01-27 16:26:06 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-e421b4aa3f716bebdab1.js"):
+  
+Started GET "/users/sign_out" for 127.0.0.1 at 2023-01-27 16:26:34 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+Started GET "/users/sign_out" for 127.0.0.1 at 2023-01-27 16:26:50 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+Started GET "/" for 127.0.0.1 at 2023-01-27 16:34:51 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 4.7ms | Allocations: 282)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 706.2ms | Allocations: 33577)
+Completed 200 OK in 727ms (Views: 714.2ms | ActiveRecord: 0.8ms | Allocations: 36630)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at 2023-01-27 16:34:55 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+Started GET "/" for 127.0.0.1 at 2023-01-27 16:40:52 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.6ms | Allocations: 283)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 883.1ms | Allocations: 33229)
+Completed 200 OK in 903ms (Views: 888.9ms | ActiveRecord: 1.2ms | Allocations: 36284)
+
+
+Started GET "/packs/js/application-e421b4aa3f716bebdab1.js" for 127.0.0.1 at 2023-01-27 16:40:53 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-e421b4aa3f716bebdab1.js"):
+  
+Started GET "/users/sign_out" for 127.0.0.1 at 2023-01-27 16:40:54 +0700
+Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 22ms (ActiveRecord: 0.1ms | Allocations: 4310)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-27 16:40:54 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 9)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 456.9ms | Allocations: 4675)
+Completed 200 OK in 458ms (Views: 457.5ms | ActiveRecord: 0.0ms | Allocations: 4973)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-27 16:41:53 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 107)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 887.7ms | Allocations: 5168)
+Completed 200 OK in 894ms (Views: 891.3ms | ActiveRecord: 0.0ms | Allocations: 6002)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-27 16:42:52 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.5ms | Allocations: 280)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 862.1ms | Allocations: 24913)
+Completed 200 OK in 883ms (Views: 870.5ms | ActiveRecord: 0.0ms | Allocations: 27953)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-27 16:42:54 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 445.2ms | Allocations: 4647)
+Completed 200 OK in 446ms (Views: 445.8ms | ActiveRecord: 0.0ms | Allocations: 4964)
+
+
+Started GET "/books" for 127.0.0.1 at 2023-01-27 16:42:55 +0700
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:6
+  Rendered books/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1322)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 447.4ms | Allocations: 5807)
+Completed 200 OK in 454ms (Views: 448.9ms | ActiveRecord: 0.2ms | Allocations: 7145)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2023-01-27 16:43:06 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 2.5ms | Allocations: 670)
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 26.4ms | Allocations: 4728)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 488.9ms | Allocations: 9139)
+Completed 200 OK in 515ms (Views: 494.6ms | ActiveRecord: 1.2ms | Allocations: 16433)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2023-01-27 16:43:12 +0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"doiquanhieumk@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "doiquanhieumk@gmail.com"], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 232ms (ActiveRecord: 0.3ms | Allocations: 5655)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-27 16:43:12 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 9)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 488.5ms | Allocations: 5459)
+Completed 200 OK in 490ms (Views: 489.0ms | ActiveRecord: 0.4ms | Allocations: 5761)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-27 16:43:16 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 515.6ms | Allocations: 5056)
+Completed 200 OK in 517ms (Views: 516.4ms | ActiveRecord: 0.1ms | Allocations: 5307)
+
+
+Started GET "/books" for 127.0.0.1 at 2023-01-27 16:43:17 +0700
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:6
+  Rendered books/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 795)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 464.3ms | Allocations: 5660)
+Completed 200 OK in 466ms (Views: 464.7ms | ActiveRecord: 0.3ms | Allocations: 5928)
+
+
+Started GET "/books" for 127.0.0.1 at 2023-01-27 16:43:20 +0700
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:6
+  Rendered books/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 772)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 492.6ms | Allocations: 5625)
+Completed 200 OK in 496ms (Views: 494.3ms | ActiveRecord: 0.4ms | Allocations: 5887)
+
+
+Started GET "/books" for 127.0.0.1 at 2023-01-27 16:43:48 +0700
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:6
+  Rendered books/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 757)
+[Webpacker] Compiling…
+Started GET "/" for 127.0.0.1 at 2023-01-27 16:43:49 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 17.1ms | Allocations: 4184)
+Completed 200 OK in 19ms (Views: 16.7ms | ActiveRecord: 1.5ms | Allocations: 4434)
+
+
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 933.4ms | Allocations: 12088)
+Completed 200 OK in 935ms (Views: 933.6ms | ActiveRecord: 0.3ms | Allocations: 12350)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-27 16:44:33 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 114)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 836.1ms | Allocations: 5972)
+Completed 200 OK in 840ms (Views: 838.2ms | ActiveRecord: 0.2ms | Allocations: 6790)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at 2023-01-27 16:44:43 +0700
+Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 32ms (ActiveRecord: 0.1ms | Allocations: 5687)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-27 16:44:43 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 108)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 879.5ms | Allocations: 5151)
+Completed 200 OK in 883ms (Views: 881.7ms | ActiveRecord: 0.0ms | Allocations: 6000)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-27 16:51:03 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 108)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 1031.3ms | Allocations: 5171)
+Completed 200 OK in 1043ms (Views: 1038.4ms | Allocations: 5988)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2023-01-27 16:51:04 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 1.6ms | Allocations: 526)
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 9.5ms | Allocations: 2195)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 460.5ms | Allocations: 6657)
+Completed 200 OK in 467ms (Views: 463.0ms | Allocations: 7803)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2023-01-27 16:51:07 +0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"doiquanhieumk@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "doiquanhieumk@gmail.com"], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 219ms (ActiveRecord: 0.8ms | Allocations: 2940)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-27 16:51:07 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 445.1ms | Allocations: 5115)
+Completed 200 OK in 446ms (Views: 445.4ms | ActiveRecord: 0.2ms | Allocations: 5368)
+
+
+Started GET "/books" for 127.0.0.1 at 2023-01-27 16:51:10 +0700
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:6
+  Rendered books/index.html.erb within layouts/application (Duration: 23.1ms | Allocations: 1218)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (5.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 515.7ms | Allocations: 6430)
+Completed 200 OK in 525ms (Views: 518.3ms | ActiveRecord: 5.2ms | Allocations: 7066)
+
+
+Started GET "/books/new" for 127.0.0.1 at 2023-01-27 16:52:36 +0700
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_form.html.erb (Duration: 64.9ms | Allocations: 5665)
+  Rendered books/new.html.erb within layouts/application (Duration: 70.8ms | Allocations: 5959)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 966.0ms | Allocations: 11058)
+Completed 200 OK in 991ms (Views: 966.4ms | ActiveRecord: 1.3ms | Allocations: 13798)
+
+
+Started POST "/books" for 127.0.0.1 at 2023-01-27 16:52:45 +0700
+Processing by BooksController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "book"=>{"title"=>"haku", "number_of_pages"=>"100"}, "commit"=>"Create Book"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/books_controller.rb:27:in `block in create'
+  [1m[36mBook Create (0.6ms)[0m  [1m[32mINSERT INTO "books" ("title", "number_of_pages", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "haku"], ["number_of_pages", 100], ["created_at", "2023-01-27 09:52:45.782516"], ["updated_at", "2023-01-27 09:52:45.782516"]]
+  ↳ app/controllers/books_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/books_controller.rb:27:in `block in create'
+Redirected to http://127.0.0.1:3000/books/1
+Completed 302 Found in 9ms (ActiveRecord: 1.9ms | Allocations: 3250)
+
+
+Started GET "/books/1" for 127.0.0.1 at 2023-01-27 16:52:45 +0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:63:in `set_book'
+  Rendering layout layouts/application.html.erb
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/_book.html.erb (Duration: 1.2ms | Allocations: 198)
+  Rendered books/show.html.erb within layouts/application (Duration: 7.6ms | Allocations: 1379)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 467.4ms | Allocations: 6495)
+Completed 200 OK in 472ms (Views: 468.1ms | ActiveRecord: 0.4ms | Allocations: 8067)
+
+
+Started GET "/books" for 127.0.0.1 at 2023-01-27 16:52:50 +0700
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:6
+  Rendered books/_book.html.erb (Duration: 0.2ms | Allocations: 19)
+  Rendered books/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 952)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 459.1ms | Allocations: 5823)
+Completed 200 OK in 460ms (Views: 459.4ms | ActiveRecord: 0.3ms | Allocations: 6119)
+
+
+Started GET "/books/1" for 127.0.0.1 at 2023-01-27 16:52:54 +0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:63:in `set_book'
+  Rendering layout layouts/application.html.erb
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/_book.html.erb (Duration: 0.1ms | Allocations: 19)
+  Rendered books/show.html.erb within layouts/application (Duration: 1.2ms | Allocations: 560)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 487.5ms | Allocations: 5420)
+Completed 200 OK in 490ms (Views: 488.0ms | ActiveRecord: 0.3ms | Allocations: 6160)
+
+
+Started GET "/books" for 127.0.0.1 at 2023-01-27 16:52:57 +0700
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:6
+  Rendered books/_book.html.erb (Duration: 0.2ms | Allocations: 19)
+  Rendered books/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 917)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 467.2ms | Allocations: 5792)
+Completed 200 OK in 468ms (Views: 467.5ms | ActiveRecord: 0.3ms | Allocations: 6054)
+
+
+Started GET "/books/new" for 127.0.0.1 at 2023-01-27 16:52:59 +0700
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_form.html.erb (Duration: 2.5ms | Allocations: 1081)
+  Rendered books/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1169)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 459.8ms | Allocations: 6038)
+Completed 200 OK in 461ms (Views: 460.2ms | ActiveRecord: 0.1ms | Allocations: 6307)
+
+
+Started POST "/books" for 127.0.0.1 at 2023-01-27 16:53:16 +0700
+Processing by BooksController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "book"=>{"title"=>"sprited away", "number_of_pages"=>"200"}, "commit"=>"Create Book"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/books_controller.rb:27:in `block in create'
+  [1m[36mBook Create (0.7ms)[0m  [1m[32mINSERT INTO "books" ("title", "number_of_pages", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "sprited away"], ["number_of_pages", 200], ["created_at", "2023-01-27 09:53:16.341998"], ["updated_at", "2023-01-27 09:53:16.341998"]]
+  ↳ app/controllers/books_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/books_controller.rb:27:in `block in create'
+Redirected to http://127.0.0.1:3000/books/2
+Completed 302 Found in 8ms (ActiveRecord: 2.1ms | Allocations: 2283)
+
+
+Started GET "/books/2" for 127.0.0.1 at 2023-01-27 16:53:16 +0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:63:in `set_book'
+  Rendering layout layouts/application.html.erb
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/_book.html.erb (Duration: 0.1ms | Allocations: 19)
+  Rendered books/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 591)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 445.7ms | Allocations: 5449)
+Completed 200 OK in 448ms (Views: 446.1ms | ActiveRecord: 0.3ms | Allocations: 6176)
+
+
+Started GET "/books" for 127.0.0.1 at 2023-01-27 16:53:19 +0700
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:6
+  Rendered books/_book.html.erb (Duration: 0.1ms | Allocations: 19)
+  Rendered books/_book.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered books/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1030)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 454.1ms | Allocations: 5899)
+Completed 200 OK in 456ms (Views: 454.7ms | ActiveRecord: 0.3ms | Allocations: 6161)
+
+
+Started GET "/books" for 127.0.0.1 at 2023-01-27 16:53:37 +0700
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:6
+  Rendered books/_book.html.erb (Duration: 0.2ms | Allocations: 19)
+  Rendered books/_book.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered books/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1030)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 926.1ms | Allocations: 5902)
+Completed 200 OK in 927ms (Views: 926.4ms | ActiveRecord: 0.3ms | Allocations: 6164)
+
+
+Started GET "/books" for 127.0.0.1 at 2023-01-27 16:53:48 +0700
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:6
+  Rendered books/_book.html.erb (Duration: 0.1ms | Allocations: 19)
+  Rendered books/_book.html.erb (Duration: 0.6ms | Allocations: 18)
+  Rendered books/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1039)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 453.0ms | Allocations: 5908)
+Completed 200 OK in 454ms (Views: 453.3ms | ActiveRecord: 0.3ms | Allocations: 6170)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at 2023-01-27 16:57:06 +0700
+Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 6ms (ActiveRecord: 0.1ms | Allocations: 1715)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-27 16:57:06 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 908.7ms | Allocations: 4366)
+Completed 200 OK in 910ms (Views: 909.5ms | ActiveRecord: 0.0ms | Allocations: 4618)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2023-01-27 16:57:13 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 131)
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1232)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 508.2ms | Allocations: 5436)
+Completed 200 OK in 513ms (Views: 509.9ms | ActiveRecord: 0.0ms | Allocations: 6079)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2023-01-27 16:57:16 +0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"doiquanhieumk@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "doiquanhieumk@gmail.com"], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 210ms (ActiveRecord: 0.1ms | Allocations: 2343)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-27 16:57:16 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 450.1ms | Allocations: 5041)
+Completed 200 OK in 451ms (Views: 450.5ms | ActiveRecord: 0.2ms | Allocations: 5291)
+
+
+Started GET "/books" for 127.0.0.1 at 2023-01-27 16:57:19 +0700
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:6
+  Rendered books/_book.html.erb (Duration: 0.1ms | Allocations: 19)
+  Rendered books/_book.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered books/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1047)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 457.1ms | Allocations: 5923)
+Completed 200 OK in 459ms (Views: 457.5ms | ActiveRecord: 0.3ms | Allocations: 6185)
+
+
+Started GET "/books" for 127.0.0.1 at 2023-01-27 16:58:41 +0700
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:3:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/books" for 127.0.0.1 at 2023-01-27 16:59:18 +0700
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.6ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:6
+  Rendered books/_book.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered books/_book.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered books/index.html.erb within layouts/application (Duration: 10.4ms | Allocations: 3146)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 863.5ms | Allocations: 10775)
+Completed 200 OK in 869ms (Views: 864.9ms | ActiveRecord: 4.2ms | Allocations: 11855)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at 2023-01-27 16:59:22 +0700
+Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 8ms (ActiveRecord: 0.1ms | Allocations: 2421)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-27 16:59:22 +0700
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:6
+  Rendered books/_book.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered books/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1054)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 465.5ms | Allocations: 5420)
+Completed 200 OK in 467ms (Views: 465.9ms | ActiveRecord: 0.1ms | Allocations: 5722)
+
+
+Started GET "/books/2" for 127.0.0.1 at 2023-01-27 16:59:38 +0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBook Load (0.7ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:63:in `set_book'
+  Rendering layout layouts/application.html.erb
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/_book.html.erb (Duration: 0.1ms | Allocations: 19)
+  Rendered books/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 582)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 462.4ms | Allocations: 4677)
+Completed 200 OK in 468ms (Views: 463.2ms | ActiveRecord: 0.7ms | Allocations: 6051)
+
+
+Started DELETE "/books/2" for 127.0.0.1 at 2023-01-27 16:59:39 +0700
+Processing by BooksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"2"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:63:in `set_book'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/books_controller.rb:52:in `destroy'
+  [1m[36mBook Destroy (2.3ms)[0m  [1m[31mDELETE FROM "books" WHERE "books"."id" = ?[0m  [["id", 2]]
+  ↳ app/controllers/books_controller.rb:52:in `destroy'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/books_controller.rb:52:in `destroy'
+Redirected to http://127.0.0.1:3000/books
+Completed 302 Found in 11ms (ActiveRecord: 3.6ms | Allocations: 2511)
+
+
+Started GET "/books" for 127.0.0.1 at 2023-01-27 16:59:39 +0700
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:6
+  Rendered books/_book.html.erb (Duration: 0.1ms | Allocations: 19)
+  Rendered books/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 917)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 459.2ms | Allocations: 5097)
+Completed 200 OK in 460ms (Views: 459.6ms | ActiveRecord: 0.1ms | Allocations: 5359)
+
+
+Started GET "/books/1" for 127.0.0.1 at 2023-01-27 16:59:41 +0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:63:in `set_book'
+  Rendering layout layouts/application.html.erb
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/_book.html.erb (Duration: 0.1ms | Allocations: 19)
+  Rendered books/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 551)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 457.2ms | Allocations: 4725)
+Completed 200 OK in 462ms (Views: 457.9ms | ActiveRecord: 0.2ms | Allocations: 5452)
+
+
+Started DELETE "/books/1" for 127.0.0.1 at 2023-01-27 16:59:43 +0700
+Processing by BooksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:63:in `set_book'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/books_controller.rb:52:in `destroy'
+  [1m[36mBook Destroy (0.4ms)[0m  [1m[31mDELETE FROM "books" WHERE "books"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/books_controller.rb:52:in `destroy'
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/books_controller.rb:52:in `destroy'
+Redirected to http://127.0.0.1:3000/books
+Completed 302 Found in 8ms (ActiveRecord: 1.8ms | Allocations: 2371)
+
+
+Started GET "/books" for 127.0.0.1 at 2023-01-27 16:59:43 +0700
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:6
+  Rendered books/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 760)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 449.5ms | Allocations: 4938)
+Completed 200 OK in 451ms (Views: 449.9ms | ActiveRecord: 0.1ms | Allocations: 5200)
+
+
+Started GET "/books" for 127.0.0.1 at 2023-01-27 16:59:48 +0700
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:6
+  Rendered books/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 769)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 453.3ms | Allocations: 4948)
+Completed 200 OK in 456ms (Views: 453.9ms | ActiveRecord: 0.2ms | Allocations: 5210)
+
+
+Started GET "/books" for 127.0.0.1 at 2023-01-27 17:00:23 +0700
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:6
+  Rendered books/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1170)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 857.3ms | Allocations: 5640)
+Completed 200 OK in 861ms (Views: 858.9ms | ActiveRecord: 0.4ms | Allocations: 6721)
+
+
+Started GET "/books" for 127.0.0.1 at 2023-01-27 17:00:25 +0700
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:6
+  Rendered books/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 736)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 451.3ms | Allocations: 4918)
+Completed 200 OK in 453ms (Views: 452.0ms | ActiveRecord: 0.2ms | Allocations: 5205)
+
+
+Started GET "/books" for 127.0.0.1 at 2023-01-27 17:00:28 +0700
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:6
+  Rendered books/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 745)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 480.2ms | Allocations: 4924)
+Completed 200 OK in 481ms (Views: 480.6ms | ActiveRecord: 0.1ms | Allocations: 5186)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-27 17:00:29 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 12)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 451.8ms | Allocations: 4763)
+Completed 200 OK in 455ms (Views: 453.5ms | ActiveRecord: 0.0ms | Allocations: 5368)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2023-01-27 17:00:33 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 1.1ms | Allocations: 160)
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1482)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 457.8ms | Allocations: 5895)
+Completed 200 OK in 467ms (Views: 459.3ms | ActiveRecord: 0.7ms | Allocations: 9490)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2023-01-27 17:00:38 +0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"doiquanhieumk@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "doiquanhieumk@gmail.com"], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 221ms (ActiveRecord: 0.4ms | Allocations: 2922)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-27 17:00:39 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 447.3ms | Allocations: 5147)
+Completed 200 OK in 448ms (Views: 447.5ms | ActiveRecord: 0.2ms | Allocations: 5398)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-27 17:02:16 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 111)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 906.0ms | Allocations: 6064)
+Completed 200 OK in 911ms (Views: 909.0ms | ActiveRecord: 0.3ms | Allocations: 6881)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2023-01-27 17:02:19 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 458.0ms | Allocations: 5108)
+Completed 200 OK in 460ms (Views: 458.7ms | ActiveRecord: 0.1ms | Allocations: 5377)
+
+
+Started GET "/books" for 127.0.0.1 at 2023-01-27 17:02:21 +0700
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:6
+  Rendered books/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1199)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 463.5ms | Allocations: 6437)
+Completed 200 OK in 467ms (Views: 465.9ms | ActiveRecord: 0.3ms | Allocations: 7073)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2023-01-27 17:02:24 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 459.7ms | Allocations: 5082)
+Completed 200 OK in 461ms (Views: 460.1ms | ActiveRecord: 0.2ms | Allocations: 5352)
+
+
+Started GET "/books" for 127.0.0.1 at 2023-01-27 17:02:25 +0700
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:6
+  Rendered books/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 751)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 456.7ms | Allocations: 5646)
+Completed 200 OK in 458ms (Views: 457.4ms | ActiveRecord: 0.3ms | Allocations: 5910)
+
+
+Started GET "/books" for 127.0.0.1 at 2023-01-27 17:02:51 +0700
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:6
+  Rendered books/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1154)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 457.5ms | Allocations: 6712)
+Completed 200 OK in 463ms (Views: 460.4ms | ActiveRecord: 0.3ms | Allocations: 7560)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2023-01-27 17:03:24 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 107)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 841.6ms | Allocations: 5694)
+Completed 200 OK in 847ms (Views: 844.1ms | ActiveRecord: 0.2ms | Allocations: 6311)
+
+
+Started GET "/books" for 127.0.0.1 at 2023-01-27 17:03:26 +0700
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:6
+  Rendered books/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 783)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 450.8ms | Allocations: 5677)
+Completed 200 OK in 452ms (Views: 451.2ms | ActiveRecord: 0.3ms | Allocations: 5960)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at 2023-01-27 17:03:27 +0700
+Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 9ms (ActiveRecord: 0.2ms | Allocations: 1961)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-27 17:03:27 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 450.2ms | Allocations: 4387)
+Completed 200 OK in 451ms (Views: 450.7ms | ActiveRecord: 0.0ms | Allocations: 4638)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-27 17:04:11 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 109)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 765.5ms | Allocations: 5184)
+Completed 200 OK in 774ms (Views: 772.5ms | ActiveRecord: 0.0ms | Allocations: 6006)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-27 17:04:17 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 111)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 688.9ms | Allocations: 5193)
+Completed 200 OK in 694ms (Views: 692.3ms | ActiveRecord: 0.0ms | Allocations: 6020)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-27 17:04:24 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 109)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 458.2ms | Allocations: 5196)
+Completed 200 OK in 463ms (Views: 461.3ms | ActiveRecord: 0.0ms | Allocations: 6022)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-27 17:05:00 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 108)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 475.5ms | Allocations: 5198)
+Completed 200 OK in 479ms (Views: 477.9ms | ActiveRecord: 0.0ms | Allocations: 6025)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2023-01-27 17:05:13 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 2.0ms | Allocations: 526)
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 8.7ms | Allocations: 2196)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 467.7ms | Allocations: 6989)
+Completed 200 OK in 473ms (Views: 471.0ms | ActiveRecord: 0.0ms | Allocations: 8345)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2023-01-27 17:05:15 +0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"doiquanhieumk@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "doiquanhieumk@gmail.com"], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 213ms (ActiveRecord: 0.2ms | Allocations: 2769)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-27 17:05:16 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 107)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 447.4ms | Allocations: 5703)
+Completed 200 OK in 450ms (Views: 449.3ms | ActiveRecord: 0.2ms | Allocations: 6303)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-27 17:05:56 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 108)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 484.5ms | Allocations: 6063)
+Completed 200 OK in 488ms (Views: 486.6ms | ActiveRecord: 0.2ms | Allocations: 6894)
+
+
+Started GET "/books" for 127.0.0.1 at 2023-01-27 17:06:02 +0700
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:6
+  Rendered books/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1179)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 470.6ms | Allocations: 6416)
+Completed 200 OK in 475ms (Views: 472.7ms | ActiveRecord: 0.3ms | Allocations: 7071)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2023-01-27 17:06:04 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 471.9ms | Allocations: 5085)
+Completed 200 OK in 473ms (Views: 472.5ms | ActiveRecord: 0.1ms | Allocations: 5356)
+
+
+Started GET "/books" for 127.0.0.1 at 2023-01-27 17:06:05 +0700
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:6
+  Rendered books/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 748)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 464.1ms | Allocations: 5644)
+Completed 200 OK in 466ms (Views: 464.4ms | ActiveRecord: 0.3ms | Allocations: 5908)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2023-01-27 17:06:08 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 457.9ms | Allocations: 5088)
+Completed 200 OK in 460ms (Views: 458.5ms | ActiveRecord: 0.1ms | Allocations: 5338)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at 2023-01-27 17:06:10 +0700
+Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 6ms (ActiveRecord: 0.1ms | Allocations: 1811)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-27 17:06:10 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 455.0ms | Allocations: 4371)
+Completed 200 OK in 456ms (Views: 455.5ms | ActiveRecord: 0.0ms | Allocations: 4622)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2023-01-27 17:06:14 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 2.0ms | Allocations: 526)
+  Rendered /Users/hakudan/.gem/ruby/3.1.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 7.2ms | Allocations: 2198)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 457.9ms | Allocations: 6663)
+Completed 200 OK in 462ms (Views: 460.7ms | ActiveRecord: 0.0ms | Allocations: 7812)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2023-01-27 17:06:18 +0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"doiquanhieumk@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "doiquanhieumk@gmail.com"], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 215ms (ActiveRecord: 0.1ms | Allocations: 2755)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-27 17:06:18 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 439.2ms | Allocations: 5104)
+Completed 200 OK in 440ms (Views: 439.5ms | ActiveRecord: 0.1ms | Allocations: 5355)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2023-01-27 17:06:21 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 451.1ms | Allocations: 5100)
+Completed 200 OK in 452ms (Views: 451.6ms | ActiveRecord: 0.2ms | Allocations: 5350)
+
+
+Started GET "/books" for 127.0.0.1 at 2023-01-27 17:06:23 +0700
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:6
+  Rendered books/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 780)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+  Rendered layout layouts/application.html.erb (Duration: 454.5ms | Allocations: 5670)
+Completed 200 OK in 456ms (Views: 454.9ms | ActiveRecord: 0.3ms | Allocations: 5935)
+
+
