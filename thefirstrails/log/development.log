@@ -4515,3 +4515,2148 @@ Processing by BooksController#index as HTML
 Completed 200 OK in 556ms (Views: 553.1ms | ActiveRecord: 0.6ms | Allocations: 6197)
 
 
+Started GET "/" for 127.0.0.1 at 2023-01-31 10:51:49 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.9ms | Allocations: 285)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 1047.6ms | Allocations: 25528)
+Completed 200 OK in 1067ms (Views: 1053.1ms | ActiveRecord: 0.0ms | Allocations: 29268)
+
+
+Started GET "/packs/js/application-e421b4aa3f716bebdab1.js" for 127.0.0.1 at 2023-01-31 10:51:50 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-e421b4aa3f716bebdab1.js"):
+  
+Started GET "/users/sign_in" for 127.0.0.1 at 2023-01-31 10:51:54 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 2.0ms | Allocations: 667)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 25.3ms | Allocations: 4603)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 660.2ms | Allocations: 9061)
+Completed 200 OK in 683ms (Views: 664.7ms | ActiveRecord: 1.0ms | Allocations: 16836)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2023-01-31 10:51:58 +0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"doiquanhieumk@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "doiquanhieumk@gmail.com"], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 327ms (ActiveRecord: 2.0ms | Allocations: 5441)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-31 10:51:58 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:14
+  Rendered layout layouts/application.html.erb (Duration: 666.3ms | Allocations: 5554)
+Completed 200 OK in 668ms (Views: 666.9ms | ActiveRecord: 0.3ms | Allocations: 5829)
+
+
+Started GET "/books" for 127.0.0.1 at 2023-01-31 10:52:03 +0700
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.7ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:6
+  Rendered books/_book.html.erb (Duration: 2.0ms | Allocations: 210)
+  Rendered books/_book.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered books/index.html.erb within layouts/application (Duration: 23.7ms | Allocations: 4435)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:14
+  Rendered layout layouts/application.html.erb (Duration: 684.8ms | Allocations: 9801)
+Completed 200 OK in 694ms (Views: 684.2ms | ActiveRecord: 2.9ms | Allocations: 11763)
+
+
+Started GET "/" for ::1 at 2023-01-31 10:54:29 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 108)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 1060.8ms | Allocations: 5120)
+Completed 200 OK in 1065ms (Views: 1063.4ms | ActiveRecord: 0.0ms | Allocations: 5955)
+
+
+Started GET "/packs/js/application-e421b4aa3f716bebdab1.js" for ::1 at 2023-01-31 10:54:30 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-e421b4aa3f716bebdab1.js"):
+  
+Started GET "/users/sign_in" for ::1 at 2023-01-31 10:54:32 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.4ms | Allocations: 526)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 6.7ms | Allocations: 2182)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 665.3ms | Allocations: 6690)
+Completed 200 OK in 672ms (Views: 669.4ms | ActiveRecord: 0.0ms | Allocations: 7768)
+
+
+Started POST "/users/sign_in" for ::1 at 2023-01-31 10:54:53 +0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"doiquanhieumk@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "doiquanhieumk@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 317ms (ActiveRecord: 0.2ms | Allocations: 3060)
+
+
+Started GET "/" for ::1 at 2023-01-31 10:54:53 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 109)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:14
+  Rendered layout layouts/application.html.erb (Duration: 660.8ms | Allocations: 6096)
+Completed 200 OK in 666ms (Views: 663.2ms | ActiveRecord: 0.2ms | Allocations: 6867)
+
+
+Started GET "/" for ::1 at 2023-01-31 10:55:13 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 108)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:14
+  Rendered layout layouts/application.html.erb (Duration: 981.6ms | Allocations: 6098)
+Completed 200 OK in 985ms (Views: 983.8ms | ActiveRecord: 0.2ms | Allocations: 6917)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-01-31 10:55:22 +0700
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.2ms | Allocations: 1982)
+
+
+Started GET "/" for ::1 at 2023-01-31 10:55:22 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 109)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:14
+  Rendered layout layouts/application.html.erb (Duration: 634.5ms | Allocations: 6081)
+Completed 200 OK in 639ms (Views: 637.2ms | ActiveRecord: 0.2ms | Allocations: 6928)
+
+
+Started GET "/users/sign_out" for ::1 at 2023-01-31 10:55:28 +0700
+Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 20ms (ActiveRecord: 0.3ms | Allocations: 2751)
+
+
+Started GET "/" for ::1 at 2023-01-31 10:55:28 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 638.6ms | Allocations: 4640)
+Completed 200 OK in 640ms (Views: 639.4ms | ActiveRecord: 0.0ms | Allocations: 4936)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-01-31 10:55:30 +0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.4ms | Allocations: 202)
+  Rendered devise/shared/_links.html.erb (Duration: 2.0ms | Allocations: 569)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 20.1ms | Allocations: 3875)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 680.6ms | Allocations: 8387)
+Completed 200 OK in 685ms (Views: 683.5ms | ActiveRecord: 0.0ms | Allocations: 9486)
+
+
+Started POST "/users" for ::1 at 2023-01-31 10:55:55 +0700
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"hoang@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"Hoang", "age"=>"23"}, "commit"=>"Sign up"}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "hoang@gmail.com"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.4ms | Allocations: 601)
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 79)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 9.5ms | Allocations: 3146)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 654.0ms | Allocations: 7493)
+Completed 200 OK in 966ms (Views: 654.6ms | ActiveRecord: 0.6ms | Allocations: 13346)
+
+
+Started POST "/users" for ::1 at 2023-01-31 10:56:12 +0700
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"huyhoang@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"Hoang", "age"=>"23"}, "commit"=>"Sign up"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "huyhoang@gmail.com"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.5ms | Allocations: 509)
+  Rendered devise/shared/_links.html.erb (Duration: 1.5ms | Allocations: 78)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 10.1ms | Allocations: 2963)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 644.2ms | Allocations: 7139)
+Completed 200 OK in 670ms (Views: 645.9ms | ActiveRecord: 0.4ms | Allocations: 12001)
+
+
+Started POST "/users" for ::1 at 2023-01-31 10:56:21 +0700
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"huyhoang@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"Hoang", "age"=>"23"}, "commit"=>"Sign up"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "huyhoang@gmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (4.9ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at", "name", "age") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["email", "huyhoang@gmail.com"], ["encrypted_password", "[FILTERED]"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2023-01-31 03:56:22.233611"], ["updated_at", "2023-01-31 03:56:22.233611"], ["name", "Hoang"], ["age", 23]]
+  [1m[36mTRANSACTION (3.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 325ms (ActiveRecord: 8.3ms | Allocations: 6775)
+
+
+Started GET "/" for ::1 at 2023-01-31 10:56:22 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:14
+  Rendered layout layouts/application.html.erb (Duration: 651.1ms | Allocations: 5174)
+Completed 200 OK in 653ms (Views: 651.6ms | ActiveRecord: 0.2ms | Allocations: 5425)
+
+
+Started GET "/books" for ::1 at 2023-01-31 10:56:30 +0700
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:6
+  Rendered books/_book.html.erb (Duration: 1.0ms | Allocations: 161)
+  Rendered books/_book.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered books/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1739)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:14
+  Rendered layout layouts/application.html.erb (Duration: 636.3ms | Allocations: 7001)
+Completed 200 OK in 640ms (Views: 638.0ms | ActiveRecord: 0.4ms | Allocations: 7652)
+
+
+Started GET "/books" for ::1 at 2023-01-31 10:56:53 +0700
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:15
+  Rendered books/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1601)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:14
+  Rendered layout layouts/application.html.erb (Duration: 993.1ms | Allocations: 7181)
+Completed 200 OK in 998ms (Views: 996.3ms | ActiveRecord: 0.3ms | Allocations: 8037)
+
+
+Started GET "/books/3" for ::1 at 2023-01-31 10:57:04 +0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:63:in `set_book'
+  Rendering layout layouts/application.html.erb
+  Rendering books/show.html.erb within layouts/application
+  [1m[36mActiveStorage::Attachment Load (0.3ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 3], ["record_type", "Book"], ["name", "image"], ["LIMIT", 1]]
+  ↳ app/views/books/show.html.erb:14
+  [1m[36mActiveStorage::Blob Load (0.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/books/show.html.erb:15
+  Rendered books/show.html.erb within layouts/application (Duration: 116.3ms | Allocations: 23600)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:14
+  Rendered layout layouts/application.html.erb (Duration: 806.3ms | Allocations: 29195)
+Completed 200 OK in 814ms (Views: 805.1ms | ActiveRecord: 4.1ms | Allocations: 31214)
+
+
+Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBDQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--10ecd8e9e8e2d62a8237783d4cd7d9367a8fa0e8/image4.jpg" for ::1 at 2023-01-31 10:57:05 +0700
+Processing by ActiveStorage::Blobs::RedirectController#show as JPEG
+  Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBDQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--10ecd8e9e8e2d62a8237783d4cd7d9367a8fa0e8", "filename"=>"image4"}
+  [1m[36mActiveStorage::Blob Load (0.3ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+[36m  Disk Storage (3.9ms) [0m[34mGenerated URL for file at key: wuuobvsgpz4b8n65hhcpvhayld0g (http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkM1YxYjJKMmMyZHdlalJpT0c0Mk5XaG9ZM0IyYUdGNWJHUXdad1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpUDJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1sdFlXZGxOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoybHRZV2RsTkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMS0zMVQwNDowMjowNS42NjVaIiwicHVyIjoiYmxvYl9rZXkifX0=--7a9c0827464f52d126bf25b6fb59fe50fd5d68b7/image4.jpg)[0m
+Redirected to http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkM1YxYjJKMmMyZHdlalJpT0c0Mk5XaG9ZM0IyYUdGNWJHUXdad1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpUDJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1sdFlXZGxOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoybHRZV2RsTkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMS0zMVQwNDowMjowNS42NjVaIiwicHVyIjoiYmxvYl9rZXkifX0=--7a9c0827464f52d126bf25b6fb59fe50fd5d68b7/image4.jpg
+Completed 302 Found in 16ms (ActiveRecord: 0.3ms | Allocations: 2710)
+
+
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkM1YxYjJKMmMyZHdlalJpT0c0Mk5XaG9ZM0IyYUdGNWJHUXdad1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpUDJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1sdFlXZGxOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoybHRZV2RsTkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMS0zMVQwNDowMjowNS42NjVaIiwicHVyIjoiYmxvYl9rZXkifX0=--7a9c0827464f52d126bf25b6fb59fe50fd5d68b7/image4.jpg" for ::1 at 2023-01-31 10:57:05 +0700
+Processing by ActiveStorage::DiskController#show as JPEG
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"image4"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms | Allocations: 318)
+
+
+Started GET "/books" for ::1 at 2023-01-31 10:57:08 +0700
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:15
+  Rendered books/index.html.erb within layouts/application (Duration: 16.3ms | Allocations: 1489)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:14
+  Rendered layout layouts/application.html.erb (Duration: 666.6ms | Allocations: 6634)
+Completed 200 OK in 669ms (Views: 667.0ms | ActiveRecord: 0.4ms | Allocations: 7048)
+
+
+Started GET "/books/4" for ::1 at 2023-01-31 10:57:11 +0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:63:in `set_book'
+  Rendering layout layouts/application.html.erb
+  Rendering books/show.html.erb within layouts/application
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 4], ["record_type", "Book"], ["name", "image"], ["LIMIT", 1]]
+  ↳ app/views/books/show.html.erb:14
+  [1m[36mActiveStorage::Blob Load (0.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/books/show.html.erb:15
+  Rendered books/show.html.erb within layouts/application (Duration: 8.3ms | Allocations: 2096)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:14
+  Rendered layout layouts/application.html.erb (Duration: 651.6ms | Allocations: 7017)
+Completed 200 OK in 660ms (Views: 653.6ms | ActiveRecord: 0.8ms | Allocations: 7759)
+
+
+Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2ca68f5b814b5a9860444bbc68dc269fbb545690/image2.jpg" for ::1 at 2023-01-31 10:57:12 +0700
+Processing by ActiveStorage::Blobs::RedirectController#show as JPEG
+  Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2ca68f5b814b5a9860444bbc68dc269fbb545690", "filename"=>"image2"}
+  [1m[36mActiveStorage::Blob Load (0.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+[36m  Disk Storage (0.9ms) [0m[34mGenerated URL for file at key: 72ulzy0oar9r0clc3ee8lonehbn4 (http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhOekoxYkhwNU1HOWhjamx5TUdOc1l6TmxaVGhzYjI1bGFHSnVOQVk2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpUDJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1sdFlXZGxNaTVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoybHRZV2RsTWk1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMS0zMVQwNDowMjoxMi41MzlaIiwicHVyIjoiYmxvYl9rZXkifX0=--dbc0fa832df714bc1bc2de9dbcc67b0a1794b0d8/image2.jpg)[0m
+Redirected to http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhOekoxYkhwNU1HOWhjamx5TUdOc1l6TmxaVGhzYjI1bGFHSnVOQVk2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpUDJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1sdFlXZGxNaTVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoybHRZV2RsTWk1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMS0zMVQwNDowMjoxMi41MzlaIiwicHVyIjoiYmxvYl9rZXkifX0=--dbc0fa832df714bc1bc2de9dbcc67b0a1794b0d8/image2.jpg
+Completed 302 Found in 10ms (ActiveRecord: 0.2ms | Allocations: 1344)
+
+
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhOekoxYkhwNU1HOWhjamx5TUdOc1l6TmxaVGhzYjI1bGFHSnVOQVk2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpUDJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1sdFlXZGxNaTVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoybHRZV2RsTWk1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMS0zMVQwNDowMjoxMi41MzlaIiwicHVyIjoiYmxvYl9rZXkifX0=--dbc0fa832df714bc1bc2de9dbcc67b0a1794b0d8/image2.jpg" for ::1 at 2023-01-31 10:57:12 +0700
+Processing by ActiveStorage::DiskController#show as JPEG
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"image2"}
+Completed 200 OK in 2ms (ActiveRecord: 0.0ms | Allocations: 155)
+
+
+Started GET "/books/4" for ::1 at 2023-01-31 10:59:54 +0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mBook Load (0.5ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:64:in `set_book'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering books/show.html.erb within layouts/application
+  [1m[36mActiveStorage::Attachment Load (0.8ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 4], ["record_type", "Book"], ["name", "image"], ["LIMIT", 1]]
+  ↳ app/views/books/show.html.erb:14
+  [1m[36mActiveStorage::Blob Load (0.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/books/show.html.erb:15
+  Rendered books/show.html.erb within layouts/application (Duration: 49.6ms | Allocations: 13349)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 1007.6ms | Allocations: 17738)
+Completed 200 OK in 1038ms (Views: 1006.7ms | ActiveRecord: 5.8ms | Allocations: 27231)
+
+
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhOekoxYkhwNU1HOWhjamx5TUdOc1l6TmxaVGhzYjI1bGFHSnVOQVk2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpUDJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1sdFlXZGxNaTVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoybHRZV2RsTWk1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMS0zMVQwNDowMjoxMi41MzlaIiwicHVyIjoiYmxvYl9rZXkifX0=--dbc0fa832df714bc1bc2de9dbcc67b0a1794b0d8/image2.jpg" for ::1 at 2023-01-31 10:59:55 +0700
+Processing by ActiveStorage::DiskController#show as JPEG
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"image2"}
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms | Allocations: 428)
+
+
+Started GET "/books" for ::1 at 2023-01-31 10:59:58 +0700
+Processing by BooksController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:15
+  Rendered books/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1008)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 650.9ms | Allocations: 5359)
+Completed 200 OK in 661ms (Views: 653.0ms | ActiveRecord: 0.9ms | Allocations: 7134)
+
+
+Started GET "/books/4" for ::1 at 2023-01-31 11:00:01 +0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mBook Load (0.4ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:64:in `set_book'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering books/show.html.erb within layouts/application
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 4], ["record_type", "Book"], ["name", "image"], ["LIMIT", 1]]
+  ↳ app/views/books/show.html.erb:14
+  [1m[36mActiveStorage::Blob Load (0.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/books/show.html.erb:15
+  Rendered books/show.html.erb within layouts/application (Duration: 7.6ms | Allocations: 1906)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 662.9ms | Allocations: 6096)
+Completed 200 OK in 674ms (Views: 663.3ms | ActiveRecord: 1.1ms | Allocations: 8115)
+
+
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhOekoxYkhwNU1HOWhjamx5TUdOc1l6TmxaVGhzYjI1bGFHSnVOQVk2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpUDJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1sdFlXZGxNaTVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoybHRZV2RsTWk1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMS0zMVQwNDowMjoxMi41MzlaIiwicHVyIjoiYmxvYl9rZXkifX0=--dbc0fa832df714bc1bc2de9dbcc67b0a1794b0d8/image2.jpg" for ::1 at 2023-01-31 11:00:01 +0700
+Processing by ActiveStorage::DiskController#show as JPEG
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"image2"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms | Allocations: 157)
+
+
+Started GET "/books/4/edit" for ::1 at 2023-01-31 11:00:04 +0700
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mBook Load (1.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:64:in `set_book'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering books/edit.html.erb within layouts/application
+  Rendered books/_form.html.erb (Duration: 4.7ms | Allocations: 1713)
+  Rendered books/edit.html.erb within layouts/application (Duration: 6.7ms | Allocations: 2062)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 686.5ms | Allocations: 6245)
+Completed 200 OK in 698ms (Views: 687.2ms | ActiveRecord: 1.5ms | Allocations: 8333)
+
+
+Started GET "/books" for ::1 at 2023-01-31 11:00:08 +0700
+Processing by BooksController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:15
+  Rendered books/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 891)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 652.8ms | Allocations: 5082)
+Completed 200 OK in 661ms (Views: 653.8ms | ActiveRecord: 0.7ms | Allocations: 6641)
+
+
+Started GET "/books" for ::1 at 2023-01-31 11:02:20 +0700
+Processing by BooksController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:15
+  Rendered books/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1333)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 974.8ms | Allocations: 6119)
+Completed 200 OK in 983ms (Views: 977.3ms | ActiveRecord: 0.4ms | Allocations: 8263)
+
+
+Started GET "/books/3/edit" for ::1 at 2023-01-31 11:02:23 +0700
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:64:in `set_book'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering books/edit.html.erb within layouts/application
+  Rendered books/_form.html.erb (Duration: 4.4ms | Allocations: 1647)
+  Rendered books/edit.html.erb within layouts/application (Duration: 5.9ms | Allocations: 2011)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 657.7ms | Allocations: 6768)
+Completed 200 OK in 670ms (Views: 660.1ms | ActiveRecord: 0.6ms | Allocations: 9477)
+
+
+Started GET "/books" for ::1 at 2023-01-31 11:04:02 +0700
+Processing by BooksController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:15
+  Rendered books/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1333)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 934.2ms | Allocations: 6126)
+Completed 200 OK in 942ms (Views: 937.0ms | ActiveRecord: 0.4ms | Allocations: 8419)
+
+
+Started GET "/books/3" for ::1 at 2023-01-31 11:04:04 +0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:64:in `set_book'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering books/show.html.erb within layouts/application
+  [1m[36mActiveStorage::Attachment Load (0.3ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 3], ["record_type", "Book"], ["name", "image"], ["LIMIT", 1]]
+  ↳ app/views/books/show.html.erb:14
+  [1m[36mActiveStorage::Blob Load (0.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/books/show.html.erb:15
+  Rendered books/show.html.erb within layouts/application (Duration: 13.1ms | Allocations: 2137)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 654.6ms | Allocations: 6326)
+Completed 200 OK in 668ms (Views: 655.0ms | ActiveRecord: 0.8ms | Allocations: 8547)
+
+
+Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBDQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--10ecd8e9e8e2d62a8237783d4cd7d9367a8fa0e8/image4.jpg" for ::1 at 2023-01-31 11:04:05 +0700
+Processing by ActiveStorage::Blobs::RedirectController#show as JPEG
+  Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBDQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--10ecd8e9e8e2d62a8237783d4cd7d9367a8fa0e8", "filename"=>"image4"}
+  [1m[36mActiveStorage::Blob Load (0.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+[36m  Disk Storage (0.8ms) [0m[34mGenerated URL for file at key: wuuobvsgpz4b8n65hhcpvhayld0g (http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkM1YxYjJKMmMyZHdlalJpT0c0Mk5XaG9ZM0IyYUdGNWJHUXdad1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpUDJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1sdFlXZGxOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoybHRZV2RsTkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMS0zMVQwNDowOTowNS4zNjVaIiwicHVyIjoiYmxvYl9rZXkifX0=--c494e1d1107d0157942d2ca2be94f10ba4a6b66c/image4.jpg)[0m
+Redirected to http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkM1YxYjJKMmMyZHdlalJpT0c0Mk5XaG9ZM0IyYUdGNWJHUXdad1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpUDJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1sdFlXZGxOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoybHRZV2RsTkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMS0zMVQwNDowOTowNS4zNjVaIiwicHVyIjoiYmxvYl9rZXkifX0=--c494e1d1107d0157942d2ca2be94f10ba4a6b66c/image4.jpg
+Completed 302 Found in 7ms (ActiveRecord: 0.2ms | Allocations: 2288)
+
+
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkM1YxYjJKMmMyZHdlalJpT0c0Mk5XaG9ZM0IyYUdGNWJHUXdad1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpUDJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1sdFlXZGxOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoybHRZV2RsTkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMS0zMVQwNDowOTowNS4zNjVaIiwicHVyIjoiYmxvYl9rZXkifX0=--c494e1d1107d0157942d2ca2be94f10ba4a6b66c/image4.jpg" for ::1 at 2023-01-31 11:04:05 +0700
+Processing by ActiveStorage::DiskController#show as JPEG
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"image4"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms | Allocations: 170)
+
+
+Started GET "/books" for ::1 at 2023-01-31 11:04:09 +0700
+Processing by BooksController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:15
+  Rendered books/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 932)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 641.7ms | Allocations: 5280)
+Completed 200 OK in 648ms (Views: 642.2ms | ActiveRecord: 0.4ms | Allocations: 6916)
+
+
+Started GET "/books" for ::1 at 2023-01-31 11:06:15 +0700
+Processing by BooksController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:15
+  Rendered books/index.html.erb within layouts/application (Duration: 6.8ms | Allocations: 2630)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 1108.6ms | Allocations: 7079)
+Completed 200 OK in 1176ms (Views: 1109.7ms | ActiveRecord: 4.2ms | Allocations: 14093)
+
+
+Started GET "/books/3" for ::1 at 2023-01-31 11:06:18 +0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:64:in `set_book'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering books/show.html.erb within layouts/application
+  [1m[36mActiveStorage::Attachment Load (0.3ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 3], ["record_type", "Book"], ["name", "image"], ["LIMIT", 1]]
+  ↳ app/views/books/show.html.erb:14
+  [1m[36mActiveStorage::Blob Load (0.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/books/show.html.erb:15
+  Rendered books/show.html.erb within layouts/application (Duration: 50.8ms | Allocations: 13301)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 688.3ms | Allocations: 17582)
+Completed 200 OK in 699ms (Views: 685.2ms | ActiveRecord: 4.6ms | Allocations: 20370)
+
+
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkM1YxYjJKMmMyZHdlalJpT0c0Mk5XaG9ZM0IyYUdGNWJHUXdad1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpUDJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1sdFlXZGxOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoybHRZV2RsTkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMS0zMVQwNDowOTowNS4zNjVaIiwicHVyIjoiYmxvYl9rZXkifX0=--c494e1d1107d0157942d2ca2be94f10ba4a6b66c/image4.jpg" for ::1 at 2023-01-31 11:06:19 +0700
+Processing by ActiveStorage::DiskController#show as JPEG
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"image4"}
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms | Allocations: 421)
+
+
+Started GET "/books/3/edit" for ::1 at 2023-01-31 11:06:22 +0700
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:64:in `set_book'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering books/edit.html.erb within layouts/application
+  Rendered books/_form.html.erb (Duration: 4.7ms | Allocations: 1629)
+  Rendered books/edit.html.erb within layouts/application (Duration: 9.6ms | Allocations: 1977)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 639.5ms | Allocations: 6310)
+Completed 200 OK in 650ms (Views: 640.3ms | ActiveRecord: 0.4ms | Allocations: 8641)
+
+
+Started PATCH "/books/3" for ::1 at 2023-01-31 11:06:24 +0700
+Processing by BooksController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "book"=>{"title"=>"haku", "number_of_pages"=>"100"}, "commit"=>"Update Book", "id"=>"3"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:64:in `set_book'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+Redirected to http://localhost:3000/books/3
+Completed 302 Found in 7ms (ActiveRecord: 0.3ms | Allocations: 2462)
+
+
+Started GET "/books/3" for ::1 at 2023-01-31 11:06:24 +0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:64:in `set_book'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering books/show.html.erb within layouts/application
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 3], ["record_type", "Book"], ["name", "image"], ["LIMIT", 1]]
+  ↳ app/views/books/show.html.erb:14
+  [1m[36mActiveStorage::Blob Load (0.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/books/show.html.erb:15
+  Rendered books/show.html.erb within layouts/application (Duration: 8.9ms | Allocations: 1896)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 629.0ms | Allocations: 6076)
+Completed 200 OK in 636ms (Views: 629.4ms | ActiveRecord: 0.9ms | Allocations: 8110)
+
+
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkM1YxYjJKMmMyZHdlalJpT0c0Mk5XaG9ZM0IyYUdGNWJHUXdad1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpUDJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1sdFlXZGxOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoybHRZV2RsTkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMS0zMVQwNDowOTowNS4zNjVaIiwicHVyIjoiYmxvYl9rZXkifX0=--c494e1d1107d0157942d2ca2be94f10ba4a6b66c/image4.jpg" for ::1 at 2023-01-31 11:06:25 +0700
+Processing by ActiveStorage::DiskController#show as JPEG
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"image4"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms | Allocations: 155)
+
+
+Started GET "/books/3" for ::1 at 2023-01-31 11:06:27 +0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:64:in `set_book'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering books/show.html.erb within layouts/application
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 3], ["record_type", "Book"], ["name", "image"], ["LIMIT", 1]]
+  ↳ app/views/books/show.html.erb:14
+  [1m[36mActiveStorage::Blob Load (0.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/books/show.html.erb:15
+  Rendered books/show.html.erb within layouts/application (Duration: 9.1ms | Allocations: 1833)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 635.2ms | Allocations: 6015)
+Completed 200 OK in 641ms (Views: 635.5ms | ActiveRecord: 0.7ms | Allocations: 8030)
+
+
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkM1YxYjJKMmMyZHdlalJpT0c0Mk5XaG9ZM0IyYUdGNWJHUXdad1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpUDJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1sdFlXZGxOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoybHRZV2RsTkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMS0zMVQwNDowOTowNS4zNjVaIiwicHVyIjoiYmxvYl9rZXkifX0=--c494e1d1107d0157942d2ca2be94f10ba4a6b66c/image4.jpg" for ::1 at 2023-01-31 11:06:28 +0700
+Processing by ActiveStorage::DiskController#show as JPEG
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"image4"}
+Completed 200 OK in 2ms (ActiveRecord: 0.0ms | Allocations: 155)
+
+
+Started GET "/books" for ::1 at 2023-01-31 11:06:30 +0700
+Processing by BooksController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:15
+  Rendered books/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 891)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 653.6ms | Allocations: 5089)
+Completed 200 OK in 659ms (Views: 654.2ms | ActiveRecord: 0.3ms | Allocations: 6642)
+
+
+Started GET "/books/4" for ::1 at 2023-01-31 11:06:33 +0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:64:in `set_book'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering books/show.html.erb within layouts/application
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 4], ["record_type", "Book"], ["name", "image"], ["LIMIT", 1]]
+  ↳ app/views/books/show.html.erb:14
+  [1m[36mActiveStorage::Blob Load (0.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/books/show.html.erb:15
+  Rendered books/show.html.erb within layouts/application (Duration: 7.6ms | Allocations: 1833)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 630.4ms | Allocations: 6023)
+Completed 200 OK in 639ms (Views: 631.0ms | ActiveRecord: 0.7ms | Allocations: 8035)
+
+
+Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2ca68f5b814b5a9860444bbc68dc269fbb545690/image2.jpg" for ::1 at 2023-01-31 11:06:33 +0700
+Processing by ActiveStorage::Blobs::RedirectController#show as JPEG
+  Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2ca68f5b814b5a9860444bbc68dc269fbb545690", "filename"=>"image2"}
+  [1m[36mActiveStorage::Blob Load (0.3ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+[36m  Disk Storage (0.9ms) [0m[34mGenerated URL for file at key: 72ulzy0oar9r0clc3ee8lonehbn4 (http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhOekoxYkhwNU1HOWhjamx5TUdOc1l6TmxaVGhzYjI1bGFHSnVOQVk2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpUDJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1sdFlXZGxNaTVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoybHRZV2RsTWk1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMS0zMVQwNDoxMTozMy43NDVaIiwicHVyIjoiYmxvYl9rZXkifX0=--c2a6374d3956b2aac6d26ab2c935074129267faf/image2.jpg)[0m
+Redirected to http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhOekoxYkhwNU1HOWhjamx5TUdOc1l6TmxaVGhzYjI1bGFHSnVOQVk2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpUDJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1sdFlXZGxNaTVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoybHRZV2RsTWk1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMS0zMVQwNDoxMTozMy43NDVaIiwicHVyIjoiYmxvYl9rZXkifX0=--c2a6374d3956b2aac6d26ab2c935074129267faf/image2.jpg
+Completed 302 Found in 11ms (ActiveRecord: 0.3ms | Allocations: 2282)
+
+
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhOekoxYkhwNU1HOWhjamx5TUdOc1l6TmxaVGhzYjI1bGFHSnVOQVk2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpUDJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1sdFlXZGxNaTVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoybHRZV2RsTWk1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMS0zMVQwNDoxMTozMy43NDVaIiwicHVyIjoiYmxvYl9rZXkifX0=--c2a6374d3956b2aac6d26ab2c935074129267faf/image2.jpg" for ::1 at 2023-01-31 11:06:33 +0700
+Processing by ActiveStorage::DiskController#show as JPEG
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"image2"}
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms | Allocations: 170)
+
+
+Started GET "/books/3/edit" for ::1 at 2023-01-31 11:06:38 +0700
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:64:in `set_book'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering books/edit.html.erb within layouts/application
+  Rendered books/_form.html.erb (Duration: 2.7ms | Allocations: 1225)
+  Rendered books/edit.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1363)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 665.3ms | Allocations: 5696)
+Completed 200 OK in 673ms (Views: 668.0ms | ActiveRecord: 0.3ms | Allocations: 7799)
+
+
+Started GET "/books/3" for ::1 at 2023-01-31 11:06:40 +0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:64:in `set_book'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering books/show.html.erb within layouts/application
+  [1m[36mActiveStorage::Attachment Load (0.5ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 3], ["record_type", "Book"], ["name", "image"], ["LIMIT", 1]]
+  ↳ app/views/books/show.html.erb:14
+  [1m[36mActiveStorage::Blob Load (0.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/books/show.html.erb:15
+  Rendered books/show.html.erb within layouts/application (Duration: 10.5ms | Allocations: 1890)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 650.7ms | Allocations: 6079)
+Completed 200 OK in 657ms (Views: 651.3ms | ActiveRecord: 1.0ms | Allocations: 8076)
+
+
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkM1YxYjJKMmMyZHdlalJpT0c0Mk5XaG9ZM0IyYUdGNWJHUXdad1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpUDJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1sdFlXZGxOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoybHRZV2RsTkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMS0zMVQwNDowOTowNS4zNjVaIiwicHVyIjoiYmxvYl9rZXkifX0=--c494e1d1107d0157942d2ca2be94f10ba4a6b66c/image4.jpg" for ::1 at 2023-01-31 11:06:41 +0700
+Processing by ActiveStorage::DiskController#show as JPEG
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"image4"}
+Completed 200 OK in 2ms (ActiveRecord: 0.0ms | Allocations: 155)
+
+
+Started GET "/books/3" for ::1 at 2023-01-31 11:06:44 +0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:64:in `set_book'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering books/show.html.erb within layouts/application
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 3], ["record_type", "Book"], ["name", "image"], ["LIMIT", 1]]
+  ↳ app/views/books/show.html.erb:14
+  [1m[36mActiveStorage::Blob Load (0.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/books/show.html.erb:15
+  Rendered books/show.html.erb within layouts/application (Duration: 6.5ms | Allocations: 1833)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 640.1ms | Allocations: 6016)
+Completed 200 OK in 649ms (Views: 640.4ms | ActiveRecord: 0.8ms | Allocations: 8033)
+
+
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkM1YxYjJKMmMyZHdlalJpT0c0Mk5XaG9ZM0IyYUdGNWJHUXdad1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpUDJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1sdFlXZGxOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoybHRZV2RsTkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMS0zMVQwNDowOTowNS4zNjVaIiwicHVyIjoiYmxvYl9rZXkifX0=--c494e1d1107d0157942d2ca2be94f10ba4a6b66c/image4.jpg" for ::1 at 2023-01-31 11:06:45 +0700
+Processing by ActiveStorage::DiskController#show as JPEG
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"image4"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms | Allocations: 155)
+
+
+Started GET "/books/3" for ::1 at 2023-01-31 11:10:39 +0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:64:in `set_book'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering books/show.html.erb within layouts/application
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 3], ["record_type", "Book"], ["name", "image"], ["LIMIT", 1]]
+  ↳ app/views/books/show.html.erb:14
+  [1m[36mActiveStorage::Blob Load (0.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/books/show.html.erb:15
+  Rendered books/show.html.erb within layouts/application (Duration: 22.0ms | Allocations: 2397)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 995.4ms | Allocations: 7133)
+Completed 200 OK in 1010ms (Views: 1001.6ms | ActiveRecord: 0.8ms | Allocations: 9724)
+
+
+Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBDQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--10ecd8e9e8e2d62a8237783d4cd7d9367a8fa0e8/image4.jpg" for ::1 at 2023-01-31 11:10:40 +0700
+Processing by ActiveStorage::Blobs::RedirectController#show as JPEG
+  Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBDQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--10ecd8e9e8e2d62a8237783d4cd7d9367a8fa0e8", "filename"=>"image4"}
+  [1m[36mActiveStorage::Blob Load (0.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+[36m  Disk Storage (2.3ms) [0m[34mGenerated URL for file at key: wuuobvsgpz4b8n65hhcpvhayld0g (http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkM1YxYjJKMmMyZHdlalJpT0c0Mk5XaG9ZM0IyYUdGNWJHUXdad1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpUDJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1sdFlXZGxOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoybHRZV2RsTkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMS0zMVQwNDoxNTo0MC4xMDRaIiwicHVyIjoiYmxvYl9rZXkifX0=--7ed08de2cce1e95d126ec4b6eb68aa28be724ed1/image4.jpg)[0m
+Redirected to http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkM1YxYjJKMmMyZHdlalJpT0c0Mk5XaG9ZM0IyYUdGNWJHUXdad1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpUDJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1sdFlXZGxOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoybHRZV2RsTkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMS0zMVQwNDoxNTo0MC4xMDRaIiwicHVyIjoiYmxvYl9rZXkifX0=--7ed08de2cce1e95d126ec4b6eb68aa28be724ed1/image4.jpg
+Completed 302 Found in 10ms (ActiveRecord: 0.2ms | Allocations: 1371)
+
+
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkM1YxYjJKMmMyZHdlalJpT0c0Mk5XaG9ZM0IyYUdGNWJHUXdad1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpUDJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1sdFlXZGxOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoybHRZV2RsTkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMS0zMVQwNDoxNTo0MC4xMDRaIiwicHVyIjoiYmxvYl9rZXkifX0=--7ed08de2cce1e95d126ec4b6eb68aa28be724ed1/image4.jpg" for ::1 at 2023-01-31 11:10:40 +0700
+Processing by ActiveStorage::DiskController#show as JPEG
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"image4"}
+Completed 200 OK in 2ms (ActiveRecord: 0.0ms | Allocations: 170)
+
+
+Started GET "/books/3" for ::1 at 2023-01-31 11:11:27 +0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:64:in `set_book'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering books/show.html.erb within layouts/application
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 3], ["record_type", "Book"], ["name", "image"], ["LIMIT", 1]]
+  ↳ app/views/books/show.html.erb:14
+  [1m[36mActiveStorage::Blob Load (0.1ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/books/show.html.erb:15
+  Rendered books/show.html.erb within layouts/application (Duration: 9.1ms | Allocations: 2395)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 961.2ms | Allocations: 7132)
+Completed 200 OK in 972ms (Views: 963.8ms | ActiveRecord: 0.7ms | Allocations: 9785)
+
+
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkM1YxYjJKMmMyZHdlalJpT0c0Mk5XaG9ZM0IyYUdGNWJHUXdad1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpUDJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1sdFlXZGxOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoybHRZV2RsTkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMS0zMVQwNDoxNTo0MC4xMDRaIiwicHVyIjoiYmxvYl9rZXkifX0=--7ed08de2cce1e95d126ec4b6eb68aa28be724ed1/image4.jpg" for ::1 at 2023-01-31 11:11:28 +0700
+Processing by ActiveStorage::DiskController#show as JPEG
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"image4"}
+Completed 200 OK in 6ms (ActiveRecord: 0.0ms | Allocations: 194)
+
+
+Started GET "/users/show" for ::1 at 2023-01-31 11:11:30 +0700
+Processing by UsersController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/users/show.html.erb:5
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 5], ["record_type", "User"], ["name", "avatar"], ["LIMIT", 1]]
+  ↳ app/views/users/show.html.erb:5
+  Rendered users/show.html.erb within layouts/application (Duration: 9.1ms | Allocations: 2870)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 653.4ms | Allocations: 7255)
+Completed 200 OK in 659ms (Views: 656.3ms | ActiveRecord: 0.6ms | Allocations: 8058)
+
+
+Started GET "/" for ::1 at 2023-01-31 11:11:35 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 108)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:14
+  Rendered layout layouts/application.html.erb (Duration: 643.0ms | Allocations: 6053)
+Completed 200 OK in 647ms (Views: 645.4ms | ActiveRecord: 0.2ms | Allocations: 6997)
+
+
+Started GET "/" for ::1 at 2023-01-31 11:11:38 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:14
+  Rendered layout layouts/application.html.erb (Duration: 635.5ms | Allocations: 5124)
+Completed 200 OK in 637ms (Views: 636.0ms | ActiveRecord: 0.2ms | Allocations: 5394)
+
+
+Started GET "/" for ::1 at 2023-01-31 11:11:46 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 108)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:14
+  Rendered layout layouts/application.html.erb (Duration: 711.3ms | Allocations: 6021)
+Completed 200 OK in 717ms (Views: 714.9ms | ActiveRecord: 0.2ms | Allocations: 6820)
+
+
+Started GET "/" for ::1 at 2023-01-31 11:11:48 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:14
+  Rendered layout layouts/application.html.erb (Duration: 648.1ms | Allocations: 5097)
+Completed 200 OK in 650ms (Views: 648.7ms | ActiveRecord: 0.2ms | Allocations: 5367)
+
+
+Started GET "/users/sign_out" for ::1 at 2023-01-31 11:12:28 +0700
+Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 12ms (ActiveRecord: 0.2ms | Allocations: 2563)
+
+
+Started GET "/" for ::1 at 2023-01-31 11:12:29 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 109)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 654.7ms | Allocations: 5225)
+Completed 200 OK in 660ms (Views: 657.6ms | ActiveRecord: 0.0ms | Allocations: 6069)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-01-31 11:12:31 +0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.9ms | Allocations: 195)
+  Rendered devise/shared/_links.html.erb (Duration: 2.1ms | Allocations: 484)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 12.0ms | Allocations: 3263)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 647.3ms | Allocations: 7714)
+Completed 200 OK in 654ms (Views: 651.1ms | ActiveRecord: 0.0ms | Allocations: 9084)
+
+
+Started POST "/users" for ::1 at 2023-01-31 11:12:56 +0700
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"dhh@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"Hoang", "age"=>"23", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x000000011303e6c0 @tempfile=#<Tempfile:/var/folders/hy/vk16jl7j12g6fqp2v_drchyr0000gn/T/RackMultipart20230131-12808-xnh2j.webp>, @original_filename="FSH-1673358383187-07.webp", @content_type="image/webp", @headers="Content-Disposition: form-data; name=\"user[avatar]\"; filename=\"FSH-1673358383187-07.webp\"\r\nContent-Type: image/webp\r\n">}, "commit"=>"Sign up"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "dhh@gmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at", "name", "age") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["email", "dhh@gmail.com"], ["encrypted_password", "[FILTERED]"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2023-01-31 04:12:56.792914"], ["updated_at", "2023-01-31 04:12:56.792914"], ["name", "Hoang"], ["age", 23]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 317ms (ActiveRecord: 1.7ms | Allocations: 6914)
+
+
+  
+ActiveRecord::RecordNotUnique (SQLite3::ConstraintException: UNIQUE constraint failed: users.name):
+  
+sqlite3-1.6.0-x86_64 (darwin) lib/sqlite3/statement.rb:108:in `step'
+sqlite3-1.6.0-x86_64 (darwin) lib/sqlite3/statement.rb:108:in `block in each'
+sqlite3-1.6.0-x86_64 (darwin) lib/sqlite3/statement.rb:107:in `loop'
+sqlite3-1.6.0-x86_64 (darwin) lib/sqlite3/statement.rb:107:in `each'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/sqlite3/database_statements.rb:56:in `to_a'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/sqlite3/database_statements.rb:56:in `block (2 levels) in exec_query'
+activesupport (7.0.4.2) lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+activesupport (7.0.4.2) lib/active_support/dependencies/interlock.rb:41:in `permit_concurrent_loads'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/sqlite3/database_statements.rb:47:in `block in exec_query'
+activesupport (7.0.4.2) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+activesupport (7.0.4.2) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+activesupport (7.0.4.2) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+activesupport (7.0.4.2) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/abstract_adapter.rb:765:in `block in log'
+activesupport (7.0.4.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/abstract_adapter.rb:756:in `log'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/sqlite3/database_statements.rb:46:in `exec_query'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/abstract/database_statements.rb:132:in `exec_insert'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/abstract/database_statements.rb:167:in `insert'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/abstract/query_cache.rb:22:in `insert'
+activerecord (7.0.4.2) lib/active_record/persistence.rb:496:in `_insert_record'
+activerecord (7.0.4.2) lib/active_record/persistence.rb:1096:in `_create_record'
+activerecord (7.0.4.2) lib/active_record/counter_cache.rb:166:in `_create_record'
+activerecord (7.0.4.2) lib/active_record/locking/optimistic.rb:79:in `_create_record'
+activerecord (7.0.4.2) lib/active_record/attribute_methods/dirty.rb:222:in `_create_record'
+activerecord (7.0.4.2) lib/active_record/callbacks.rb:461:in `block in _create_record'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:107:in `run_callbacks'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:929:in `_run_create_callbacks'
+activerecord (7.0.4.2) lib/active_record/callbacks.rb:461:in `_create_record'
+activerecord (7.0.4.2) lib/active_record/timestamp.rb:108:in `_create_record'
+activerecord (7.0.4.2) lib/active_record/persistence.rb:1067:in `create_or_update'
+activerecord (7.0.4.2) lib/active_record/callbacks.rb:457:in `block in create_or_update'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:107:in `run_callbacks'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:929:in `_run_save_callbacks'
+activerecord (7.0.4.2) lib/active_record/callbacks.rb:457:in `create_or_update'
+activerecord (7.0.4.2) lib/active_record/timestamp.rb:126:in `create_or_update'
+activerecord (7.0.4.2) lib/active_record/persistence.rb:615:in `save'
+activerecord (7.0.4.2) lib/active_record/validations.rb:47:in `save'
+activerecord (7.0.4.2) lib/active_record/transactions.rb:298:in `block in save'
+activerecord (7.0.4.2) lib/active_record/transactions.rb:354:in `block in with_transaction_returning_status'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/abstract/transaction.rb:319:in `block in within_new_transaction'
+activesupport (7.0.4.2) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+activesupport (7.0.4.2) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+activesupport (7.0.4.2) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+activesupport (7.0.4.2) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/abstract/transaction.rb:317:in `within_new_transaction'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/abstract/database_statements.rb:316:in `transaction'
+activerecord (7.0.4.2) lib/active_record/transactions.rb:350:in `with_transaction_returning_status'
+activerecord (7.0.4.2) lib/active_record/transactions.rb:298:in `save'
+activerecord (7.0.4.2) lib/active_record/suppressor.rb:50:in `save'
+devise (4.8.1) app/controllers/devise/registrations_controller.rb:19:in `create'
+actionpack (7.0.4.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.4.2) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.4.2) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.4.2) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.4.2) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.4.2) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.4.2) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4.2) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4.2) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.4.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.4.2) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.4.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4.2) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4.2) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/routing/mapper.rb:18:in `block in <class:Constraints>'
+actionpack (7.0.4.2) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:852:in `call'
+warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+warden (1.2.9) lib/warden/manager.rb:34:in `call'
+rack (2.2.6.2) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.6.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.6.2) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.6.2) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.6.2) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.6.2) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.4.2) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4.2) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.6.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.2) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.6.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/host_authorization.rb:131:in `call'
+webpacker (3.6.0) lib/webpacker/dev_server_proxy.rb:22:in `perform_request'
+rack-proxy (0.7.6) lib/rack/proxy.rb:87:in `call'
+railties (7.0.4.2) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/users" for ::1 at 2023-01-31 11:14:28 +0700
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"dhh@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"Hoang", "age"=>"23", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x00000001132a54e0 @tempfile=#<Tempfile:/var/folders/hy/vk16jl7j12g6fqp2v_drchyr0000gn/T/RackMultipart20230131-12808-nar0nz.jpg>, @original_filename="1280_printempseteeall.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[avatar]\"; filename=\"1280_printempseteeall.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Sign up"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "dhh@gmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at", "name", "age") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["email", "dhh@gmail.com"], ["encrypted_password", "[FILTERED]"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2023-01-31 04:14:28.895363"], ["updated_at", "2023-01-31 04:14:28.895363"], ["name", "Hoang"], ["age", 23]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 310ms (ActiveRecord: 1.5ms | Allocations: 6074)
+
+
+  
+ActiveRecord::RecordNotUnique (SQLite3::ConstraintException: UNIQUE constraint failed: users.name):
+  
+sqlite3-1.6.0-x86_64 (darwin) lib/sqlite3/statement.rb:108:in `step'
+sqlite3-1.6.0-x86_64 (darwin) lib/sqlite3/statement.rb:108:in `block in each'
+sqlite3-1.6.0-x86_64 (darwin) lib/sqlite3/statement.rb:107:in `loop'
+sqlite3-1.6.0-x86_64 (darwin) lib/sqlite3/statement.rb:107:in `each'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/sqlite3/database_statements.rb:56:in `to_a'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/sqlite3/database_statements.rb:56:in `block (2 levels) in exec_query'
+activesupport (7.0.4.2) lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+activesupport (7.0.4.2) lib/active_support/dependencies/interlock.rb:41:in `permit_concurrent_loads'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/sqlite3/database_statements.rb:47:in `block in exec_query'
+activesupport (7.0.4.2) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+activesupport (7.0.4.2) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+activesupport (7.0.4.2) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+activesupport (7.0.4.2) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/abstract_adapter.rb:765:in `block in log'
+activesupport (7.0.4.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/abstract_adapter.rb:756:in `log'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/sqlite3/database_statements.rb:46:in `exec_query'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/abstract/database_statements.rb:132:in `exec_insert'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/abstract/database_statements.rb:167:in `insert'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/abstract/query_cache.rb:22:in `insert'
+activerecord (7.0.4.2) lib/active_record/persistence.rb:496:in `_insert_record'
+activerecord (7.0.4.2) lib/active_record/persistence.rb:1096:in `_create_record'
+activerecord (7.0.4.2) lib/active_record/counter_cache.rb:166:in `_create_record'
+activerecord (7.0.4.2) lib/active_record/locking/optimistic.rb:79:in `_create_record'
+activerecord (7.0.4.2) lib/active_record/attribute_methods/dirty.rb:222:in `_create_record'
+activerecord (7.0.4.2) lib/active_record/callbacks.rb:461:in `block in _create_record'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:107:in `run_callbacks'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:929:in `_run_create_callbacks'
+activerecord (7.0.4.2) lib/active_record/callbacks.rb:461:in `_create_record'
+activerecord (7.0.4.2) lib/active_record/timestamp.rb:108:in `_create_record'
+activerecord (7.0.4.2) lib/active_record/persistence.rb:1067:in `create_or_update'
+activerecord (7.0.4.2) lib/active_record/callbacks.rb:457:in `block in create_or_update'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:107:in `run_callbacks'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:929:in `_run_save_callbacks'
+activerecord (7.0.4.2) lib/active_record/callbacks.rb:457:in `create_or_update'
+activerecord (7.0.4.2) lib/active_record/timestamp.rb:126:in `create_or_update'
+activerecord (7.0.4.2) lib/active_record/persistence.rb:615:in `save'
+activerecord (7.0.4.2) lib/active_record/validations.rb:47:in `save'
+activerecord (7.0.4.2) lib/active_record/transactions.rb:298:in `block in save'
+activerecord (7.0.4.2) lib/active_record/transactions.rb:354:in `block in with_transaction_returning_status'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/abstract/transaction.rb:319:in `block in within_new_transaction'
+activesupport (7.0.4.2) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+activesupport (7.0.4.2) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+activesupport (7.0.4.2) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+activesupport (7.0.4.2) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/abstract/transaction.rb:317:in `within_new_transaction'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/abstract/database_statements.rb:316:in `transaction'
+activerecord (7.0.4.2) lib/active_record/transactions.rb:350:in `with_transaction_returning_status'
+activerecord (7.0.4.2) lib/active_record/transactions.rb:298:in `save'
+activerecord (7.0.4.2) lib/active_record/suppressor.rb:50:in `save'
+devise (4.8.1) app/controllers/devise/registrations_controller.rb:19:in `create'
+actionpack (7.0.4.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.4.2) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.4.2) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.4.2) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.4.2) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.4.2) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.4.2) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4.2) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4.2) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.4.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.4.2) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.4.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4.2) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4.2) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/routing/mapper.rb:18:in `block in <class:Constraints>'
+actionpack (7.0.4.2) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:852:in `call'
+warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+warden (1.2.9) lib/warden/manager.rb:34:in `call'
+rack (2.2.6.2) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.6.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.6.2) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.6.2) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.6.2) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.6.2) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.4.2) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4.2) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.6.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.2) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.6.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/host_authorization.rb:131:in `call'
+webpacker (3.6.0) lib/webpacker/dev_server_proxy.rb:22:in `perform_request'
+rack-proxy (0.7.6) lib/rack/proxy.rb:87:in `call'
+railties (7.0.4.2) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/users" for ::1 at 2023-01-31 11:14:52 +0700
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"dhh@sis.hust", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"123456", "age"=>"23", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x000000011365cfc0 @tempfile=#<Tempfile:/var/folders/hy/vk16jl7j12g6fqp2v_drchyr0000gn/T/RackMultipart20230131-12808-svb1jc.jpg>, @original_filename="1280_printempseteeall.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[avatar]\"; filename=\"1280_printempseteeall.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Sign up"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "dhh@sis.hust"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 3.9ms | Allocations: 921)
+  Rendered devise/shared/_links.html.erb (Duration: 0.5ms | Allocations: 79)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 22.0ms | Allocations: 4030)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 1137.3ms | Allocations: 8352)
+Completed 200 OK in 1157ms (Views: 1139.1ms | ActiveRecord: 0.4ms | Allocations: 13697)
+
+
+Started POST "/users" for ::1 at 2023-01-31 11:15:12 +0700
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"dhh@sis.hust", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"Hoang", "age"=>"23", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x00000001123ddb60 @tempfile=#<Tempfile:/var/folders/hy/vk16jl7j12g6fqp2v_drchyr0000gn/T/RackMultipart20230131-12808-mnfx6v.jpg>, @original_filename="1280_printempseteeall.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[avatar]\"; filename=\"1280_printempseteeall.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Sign up"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "dhh@sis.hust"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.7ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at", "name", "age") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["email", "dhh@sis.hust"], ["encrypted_password", "[FILTERED]"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2023-01-31 04:15:12.586026"], ["updated_at", "2023-01-31 04:15:12.586026"], ["name", "Hoang"], ["age", 23]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 315ms (ActiveRecord: 2.1ms | Allocations: 5949)
+
+
+  
+ActiveRecord::RecordNotUnique (SQLite3::ConstraintException: UNIQUE constraint failed: users.name):
+  
+sqlite3-1.6.0-x86_64 (darwin) lib/sqlite3/statement.rb:108:in `step'
+sqlite3-1.6.0-x86_64 (darwin) lib/sqlite3/statement.rb:108:in `block in each'
+sqlite3-1.6.0-x86_64 (darwin) lib/sqlite3/statement.rb:107:in `loop'
+sqlite3-1.6.0-x86_64 (darwin) lib/sqlite3/statement.rb:107:in `each'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/sqlite3/database_statements.rb:56:in `to_a'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/sqlite3/database_statements.rb:56:in `block (2 levels) in exec_query'
+activesupport (7.0.4.2) lib/active_support/concurrency/share_lock.rb:187:in `yield_shares'
+activesupport (7.0.4.2) lib/active_support/dependencies/interlock.rb:41:in `permit_concurrent_loads'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/sqlite3/database_statements.rb:47:in `block in exec_query'
+activesupport (7.0.4.2) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+activesupport (7.0.4.2) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+activesupport (7.0.4.2) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+activesupport (7.0.4.2) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/abstract_adapter.rb:765:in `block in log'
+activesupport (7.0.4.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/abstract_adapter.rb:756:in `log'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/sqlite3/database_statements.rb:46:in `exec_query'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/abstract/database_statements.rb:132:in `exec_insert'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/abstract/database_statements.rb:167:in `insert'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/abstract/query_cache.rb:22:in `insert'
+activerecord (7.0.4.2) lib/active_record/persistence.rb:496:in `_insert_record'
+activerecord (7.0.4.2) lib/active_record/persistence.rb:1096:in `_create_record'
+activerecord (7.0.4.2) lib/active_record/counter_cache.rb:166:in `_create_record'
+activerecord (7.0.4.2) lib/active_record/locking/optimistic.rb:79:in `_create_record'
+activerecord (7.0.4.2) lib/active_record/attribute_methods/dirty.rb:222:in `_create_record'
+activerecord (7.0.4.2) lib/active_record/callbacks.rb:461:in `block in _create_record'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:107:in `run_callbacks'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:929:in `_run_create_callbacks'
+activerecord (7.0.4.2) lib/active_record/callbacks.rb:461:in `_create_record'
+activerecord (7.0.4.2) lib/active_record/timestamp.rb:108:in `_create_record'
+activerecord (7.0.4.2) lib/active_record/persistence.rb:1067:in `create_or_update'
+activerecord (7.0.4.2) lib/active_record/callbacks.rb:457:in `block in create_or_update'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:107:in `run_callbacks'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:929:in `_run_save_callbacks'
+activerecord (7.0.4.2) lib/active_record/callbacks.rb:457:in `create_or_update'
+activerecord (7.0.4.2) lib/active_record/timestamp.rb:126:in `create_or_update'
+activerecord (7.0.4.2) lib/active_record/persistence.rb:615:in `save'
+activerecord (7.0.4.2) lib/active_record/validations.rb:47:in `save'
+activerecord (7.0.4.2) lib/active_record/transactions.rb:298:in `block in save'
+activerecord (7.0.4.2) lib/active_record/transactions.rb:354:in `block in with_transaction_returning_status'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/abstract/transaction.rb:319:in `block in within_new_transaction'
+activesupport (7.0.4.2) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+activesupport (7.0.4.2) lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+activesupport (7.0.4.2) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+activesupport (7.0.4.2) lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/abstract/transaction.rb:317:in `within_new_transaction'
+activerecord (7.0.4.2) lib/active_record/connection_adapters/abstract/database_statements.rb:316:in `transaction'
+activerecord (7.0.4.2) lib/active_record/transactions.rb:350:in `with_transaction_returning_status'
+activerecord (7.0.4.2) lib/active_record/transactions.rb:298:in `save'
+activerecord (7.0.4.2) lib/active_record/suppressor.rb:50:in `save'
+devise (4.8.1) app/controllers/devise/registrations_controller.rb:19:in `create'
+actionpack (7.0.4.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.4.2) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.4.2) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.4.2) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.4.2) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.4.2) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.4.2) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4.2) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4.2) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.4.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.4.2) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.4.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4.2) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4.2) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/routing/mapper.rb:18:in `block in <class:Constraints>'
+actionpack (7.0.4.2) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:852:in `call'
+warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+warden (1.2.9) lib/warden/manager.rb:34:in `call'
+rack (2.2.6.2) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.6.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.6.2) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.6.2) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.6.2) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.6.2) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.4.2) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4.2) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.6.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.2) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.6.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/host_authorization.rb:131:in `call'
+webpacker (3.6.0) lib/webpacker/dev_server_proxy.rb:22:in `perform_request'
+rack-proxy (0.7.6) lib/rack/proxy.rb:87:in `call'
+railties (7.0.4.2) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/users" for ::1 at 2023-01-31 11:15:32 +0700
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"dhh@sis.hust", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"Dang Huy Hoang", "age"=>"23", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x0000000112d6e9b8 @tempfile=#<Tempfile:/var/folders/hy/vk16jl7j12g6fqp2v_drchyr0000gn/T/RackMultipart20230131-12808-n8a5a1.jpg>, @original_filename="1280_printempseteeall.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[avatar]\"; filename=\"1280_printempseteeall.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Sign up"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "dhh@sis.hust"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at", "name", "age") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["email", "dhh@sis.hust"], ["encrypted_password", "[FILTERED]"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2023-01-31 04:15:32.947383"], ["updated_at", "2023-01-31 04:15:32.947383"], ["name", "Dang Huy Hoang"], ["age", 23]]
+  [1m[36mActiveStorage::Blob Load (0.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" INNER JOIN "active_storage_attachments" ON "active_storage_blobs"."id" = "active_storage_attachments"."blob_id" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 6], ["record_type", "User"], ["name", "avatar"], ["LIMIT", 1]]
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 6], ["record_type", "User"], ["name", "avatar"], ["LIMIT", 1]]
+  [1m[36mActiveStorage::Blob Create (1.0ms)[0m  [1m[32mINSERT INTO "active_storage_blobs" ("key", "filename", "content_type", "metadata", "service_name", "byte_size", "checksum", "created_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["key", "ljate5v4w6ax4yd24nqf1qgp5hid"], ["filename", "1280_printempseteeall.jpg"], ["content_type", "image/jpeg"], ["metadata", "{\"identified\":true}"], ["service_name", "local"], ["byte_size", 82169], ["checksum", "1QT3JQZRhySBEBMH5jHMhA=="], ["created_at", "2023-01-31 04:15:32.991899"]]
+  [1m[36mActiveStorage::Attachment Create (1.0ms)[0m  [1m[32mINSERT INTO "active_storage_attachments" ("name", "record_type", "record_id", "blob_id", "created_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "avatar"], ["record_type", "User"], ["record_id", 6], ["blob_id", 5], ["created_at", "2023-01-31 04:15:32.996733"]]
+  [1m[36mUser Update (1.2ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = ? WHERE "users"."id" = ?[0m  [["updated_at", "2023-01-31 04:15:33.001053"], ["id", 6]]
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[36mcommit transaction[0m
+[36m  Disk Storage (1.8ms) [0m[32mUploaded file to key: ljate5v4w6ax4yd24nqf1qgp5hid (checksum: 1QT3JQZRhySBEBMH5jHMhA==)[0m
+[ActiveJob] Enqueued ActiveStorage::AnalyzeJob (Job ID: d356c3b4-6e99-43df-a0b4-e8f52a1cbaa8) to Async(default) with arguments: #<GlobalID:0x0000000112f3ee28 @uri=#<URI::GID gid://thefirstrails/ActiveStorage::Blob/5>>
+Redirected to http://localhost:3000/
+Completed 302 Found in 381ms (ActiveRecord: 6.5ms | Allocations: 20675)
+
+
+[ActiveJob] [ActiveStorage::AnalyzeJob] [d356c3b4-6e99-43df-a0b4-e8f52a1cbaa8]   [1m[36mActiveStorage::Blob Load (0.9ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+[ActiveJob] [ActiveStorage::AnalyzeJob] [d356c3b4-6e99-43df-a0b4-e8f52a1cbaa8] Performing ActiveStorage::AnalyzeJob (Job ID: d356c3b4-6e99-43df-a0b4-e8f52a1cbaa8) from Async(default) enqueued at 2023-01-31T04:15:33Z with arguments: #<GlobalID:0x0000000112f9e850 @uri=#<URI::GID gid://thefirstrails/ActiveStorage::Blob/5>>
+[ActiveJob] [ActiveStorage::AnalyzeJob] [d356c3b4-6e99-43df-a0b4-e8f52a1cbaa8] Skipping image analysis because the ruby-vips gem isn't installed
+[ActiveJob] [ActiveStorage::AnalyzeJob] [d356c3b4-6e99-43df-a0b4-e8f52a1cbaa8]   [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [d356c3b4-6e99-43df-a0b4-e8f52a1cbaa8]   [1m[36mActiveStorage::Blob Update (0.9ms)[0m  [1m[33mUPDATE "active_storage_blobs" SET "metadata" = ? WHERE "active_storage_blobs"."id" = ?[0m  [["metadata", "{\"identified\":true,\"analyzed\":true}"], ["id", 5]]
+[ActiveJob] [ActiveStorage::AnalyzeJob] [d356c3b4-6e99-43df-a0b4-e8f52a1cbaa8]   [1m[36mTRANSACTION (1.1ms)[0m  [1m[36mcommit transaction[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [d356c3b4-6e99-43df-a0b4-e8f52a1cbaa8] Performed ActiveStorage::AnalyzeJob (Job ID: d356c3b4-6e99-43df-a0b4-e8f52a1cbaa8) from Async(default) in 24.74ms
+Started GET "/" for ::1 at 2023-01-31 11:15:33 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:14
+  Rendered layout layouts/application.html.erb (Duration: 684.1ms | Allocations: 5415)
+Completed 200 OK in 688ms (Views: 685.0ms | ActiveRecord: 0.2ms | Allocations: 5723)
+
+
+Started GET "/" for ::1 at 2023-01-31 11:15:40 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:14
+  Rendered layout layouts/application.html.erb (Duration: 643.8ms | Allocations: 5143)
+Completed 200 OK in 645ms (Views: 644.3ms | ActiveRecord: 0.2ms | Allocations: 5393)
+
+
+Started GET "/users/show" for ::1 at 2023-01-31 11:15:42 +0700
+Processing by UsersController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/views/users/show.html.erb:5
+  [1m[36mActiveStorage::Attachment Load (0.6ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 6], ["record_type", "User"], ["name", "avatar"], ["LIMIT", 1]]
+  ↳ app/views/users/show.html.erb:5
+  [1m[36mActiveStorage::Blob Load (0.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/users/show.html.erb:6
+  Rendered users/show.html.erb within layouts/application (Duration: 9.4ms | Allocations: 3302)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 645.3ms | Allocations: 7745)
+Completed 200 OK in 649ms (Views: 646.5ms | ActiveRecord: 0.9ms | Allocations: 8366)
+
+
+Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBDZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--6594f06684f4adc50709f1c6bf22ed2c15e738f1/1280_printempseteeall.jpg" for ::1 at 2023-01-31 11:15:42 +0700
+Processing by ActiveStorage::Blobs::RedirectController#show as JPEG
+  Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBDZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--6594f06684f4adc50709f1c6bf22ed2c15e738f1", "filename"=>"1280_printempseteeall"}
+  [1m[36mActiveStorage::Blob Load (0.3ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+[36m  Disk Storage (5.1ms) [0m[34mGenerated URL for file at key: ljate5v4w6ax4yd24nqf1qgp5hid (http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhiR3BoZEdVMWRqUjNObUY0Tkhsa01qUnVjV1l4Y1dkd05XaHBaQVk2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWFdsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWpFeU9EQmZjSEpwYm5SbGJYQnpaWFJsWldGc2JDNXFjR2NpT3lCbWFXeGxibUZ0WlNvOVZWUkdMVGduSnpFeU9EQmZjSEpwYm5SbGJYQnpaWFJsWldGc2JDNXFjR2NHT3daVU9oRmpiMjUwWlc1MFgzUjVjR1ZKSWc5cGJXRm5aUzlxY0dWbkJqc0dWRG9SYzJWeWRtbGpaVjl1WVcxbE9ncHNiMk5oYkE9PSIsImV4cCI6IjIwMjMtMDEtMzFUMDQ6MjA6NDIuNzUzWiIsInB1ciI6ImJsb2Jfa2V5In19--29b52b1e6754c9fd49ce3016867509ae7fd14b79/1280_printempseteeall.jpg)[0m
+Redirected to http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhiR3BoZEdVMWRqUjNObUY0Tkhsa01qUnVjV1l4Y1dkd05XaHBaQVk2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWFdsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWpFeU9EQmZjSEpwYm5SbGJYQnpaWFJsWldGc2JDNXFjR2NpT3lCbWFXeGxibUZ0WlNvOVZWUkdMVGduSnpFeU9EQmZjSEpwYm5SbGJYQnpaWFJsWldGc2JDNXFjR2NHT3daVU9oRmpiMjUwWlc1MFgzUjVjR1ZKSWc5cGJXRm5aUzlxY0dWbkJqc0dWRG9SYzJWeWRtbGpaVjl1WVcxbE9ncHNiMk5oYkE9PSIsImV4cCI6IjIwMjMtMDEtMzFUMDQ6MjA6NDIuNzUzWiIsInB1ciI6ImJsb2Jfa2V5In19--29b52b1e6754c9fd49ce3016867509ae7fd14b79/1280_printempseteeall.jpg
+Completed 302 Found in 12ms (ActiveRecord: 0.3ms | Allocations: 1364)
+
+
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhiR3BoZEdVMWRqUjNObUY0Tkhsa01qUnVjV1l4Y1dkd05XaHBaQVk2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWFdsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWpFeU9EQmZjSEpwYm5SbGJYQnpaWFJsWldGc2JDNXFjR2NpT3lCbWFXeGxibUZ0WlNvOVZWUkdMVGduSnpFeU9EQmZjSEpwYm5SbGJYQnpaWFJsWldGc2JDNXFjR2NHT3daVU9oRmpiMjUwWlc1MFgzUjVjR1ZKSWc5cGJXRm5aUzlxY0dWbkJqc0dWRG9SYzJWeWRtbGpaVjl1WVcxbE9ncHNiMk5oYkE9PSIsImV4cCI6IjIwMjMtMDEtMzFUMDQ6MjA6NDIuNzUzWiIsInB1ciI6ImJsb2Jfa2V5In19--29b52b1e6754c9fd49ce3016867509ae7fd14b79/1280_printempseteeall.jpg" for ::1 at 2023-01-31 11:15:42 +0700
+Processing by ActiveStorage::DiskController#show as JPEG
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"1280_printempseteeall"}
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms | Allocations: 170)
+
+
+Started GET "/" for ::1 at 2023-01-31 11:15:45 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:14
+  Rendered layout layouts/application.html.erb (Duration: 637.6ms | Allocations: 5149)
+Completed 200 OK in 639ms (Views: 638.1ms | ActiveRecord: 0.2ms | Allocations: 5415)
+
+
+Started GET "/" for ::1 at 2023-01-31 11:17:15 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 108)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:14
+  Rendered layout layouts/application.html.erb (Duration: 1072.0ms | Allocations: 6097)
+Completed 200 OK in 1077ms (Views: 1074.5ms | ActiveRecord: 0.3ms | Allocations: 6910)
+
+
+Started GET "/books" for ::1 at 2023-01-31 11:17:17 +0700
+Processing by BooksController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:15
+  Rendered books/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1335)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 672.5ms | Allocations: 5797)
+Completed 200 OK in 679ms (Views: 674.4ms | ActiveRecord: 0.3ms | Allocations: 7770)
+
+
+Started GET "/books/3" for ::1 at 2023-01-31 11:17:22 +0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:64:in `set_book'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering books/show.html.erb within layouts/application
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 3], ["record_type", "Book"], ["name", "image"], ["LIMIT", 1]]
+  ↳ app/views/books/show.html.erb:14
+  [1m[36mActiveStorage::Blob Load (0.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/books/show.html.erb:15
+  Rendered books/show.html.erb within layouts/application (Duration: 8.4ms | Allocations: 2392)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 634.4ms | Allocations: 7160)
+Completed 200 OK in 647ms (Views: 639.0ms | ActiveRecord: 0.7ms | Allocations: 9877)
+
+
+Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBDQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--10ecd8e9e8e2d62a8237783d4cd7d9367a8fa0e8/image4.jpg" for ::1 at 2023-01-31 11:17:23 +0700
+Processing by ActiveStorage::Blobs::RedirectController#show as JPEG
+  Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBDQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--10ecd8e9e8e2d62a8237783d4cd7d9367a8fa0e8", "filename"=>"image4"}
+  [1m[36mActiveStorage::Blob Load (0.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+[36m  Disk Storage (0.6ms) [0m[34mGenerated URL for file at key: wuuobvsgpz4b8n65hhcpvhayld0g (http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkM1YxYjJKMmMyZHdlalJpT0c0Mk5XaG9ZM0IyYUdGNWJHUXdad1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpUDJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1sdFlXZGxOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoybHRZV2RsTkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMS0zMVQwNDoyMjoyMy4xOTRaIiwicHVyIjoiYmxvYl9rZXkifX0=--9b7e408b87ef909e650b8dd7499147abf70723b9/image4.jpg)[0m
+Redirected to http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkM1YxYjJKMmMyZHdlalJpT0c0Mk5XaG9ZM0IyYUdGNWJHUXdad1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpUDJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1sdFlXZGxOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoybHRZV2RsTkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMS0zMVQwNDoyMjoyMy4xOTRaIiwicHVyIjoiYmxvYl9rZXkifX0=--9b7e408b87ef909e650b8dd7499147abf70723b9/image4.jpg
+Completed 302 Found in 37ms (ActiveRecord: 0.2ms | Allocations: 1372)
+
+
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkM1YxYjJKMmMyZHdlalJpT0c0Mk5XaG9ZM0IyYUdGNWJHUXdad1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpUDJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1sdFlXZGxOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoybHRZV2RsTkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMS0zMVQwNDoyMjoyMy4xOTRaIiwicHVyIjoiYmxvYl9rZXkifX0=--9b7e408b87ef909e650b8dd7499147abf70723b9/image4.jpg" for ::1 at 2023-01-31 11:17:23 +0700
+Processing by ActiveStorage::DiskController#show as JPEG
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"image4"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms | Allocations: 170)
+
+
+Started GET "/books" for ::1 at 2023-01-31 11:17:58 +0700
+Processing by BooksController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:15
+  Rendered books/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1155)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 1044.4ms | Allocations: 5353)
+Completed 200 OK in 1050ms (Views: 1045.0ms | ActiveRecord: 0.3ms | Allocations: 7044)
+
+
+Started GET "/books" for ::1 at 2023-01-31 11:23:09 +0700
+Processing by BooksController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:15
+  Rendered books/index.html.erb within layouts/application (Duration: 10.6ms | Allocations: 1700)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 1058.5ms | Allocations: 6469)
+Completed 200 OK in 1070ms (Views: 1061.7ms | ActiveRecord: 0.5ms | Allocations: 8586)
+
+
+Started DELETE "/books/3" for ::1 at 2023-01-31 11:23:11 +0700
+Processing by BooksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"3"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:64:in `set_book'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/books_controller.rb:53:in `destroy'
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 3], ["record_type", "Book"], ["name", "image"], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:53:in `destroy'
+  [1m[36mActiveStorage::Attachment Destroy (2.1ms)[0m  [1m[31mDELETE FROM "active_storage_attachments" WHERE "active_storage_attachments"."id" = ?[0m  [["id", 3]]
+  ↳ app/controllers/books_controller.rb:53:in `destroy'
+  [1m[36mBook Destroy (0.3ms)[0m  [1m[31mDELETE FROM "books" WHERE "books"."id" = ?[0m  [["id", 3]]
+  ↳ app/controllers/books_controller.rb:53:in `destroy'
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/books_controller.rb:53:in `destroy'
+  [1m[36mActiveStorage::Blob Load (0.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:53:in `destroy'
+[ActiveJob] Enqueued ActiveStorage::PurgeJob (Job ID: 9520b5be-dd36-4d83-9f9a-c9388f2176e0) to Async(default) with arguments: #<GlobalID:0x00000001128ed808 @uri=#<URI::GID gid://thefirstrails/ActiveStorage::Blob/3>>
+Redirected to http://localhost:3000/books
+Completed 302 Found in 75ms (ActiveRecord: 5.2ms | Allocations: 10303)
+
+
+[ActiveJob] [ActiveStorage::PurgeJob] [9520b5be-dd36-4d83-9f9a-c9388f2176e0]   [1m[36mActiveStorage::Blob Load (0.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+[ActiveJob] [ActiveStorage::PurgeJob] [9520b5be-dd36-4d83-9f9a-c9388f2176e0] Performing ActiveStorage::PurgeJob (Job ID: 9520b5be-dd36-4d83-9f9a-c9388f2176e0) from Async(default) enqueued at 2023-01-31T04:23:11Z with arguments: #<GlobalID:0x0000000112914e30 @uri=#<URI::GID gid://thefirstrails/ActiveStorage::Blob/3>>
+[ActiveJob] [ActiveStorage::PurgeJob] [9520b5be-dd36-4d83-9f9a-c9388f2176e0]   [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+[ActiveJob] [ActiveStorage::PurgeJob] [9520b5be-dd36-4d83-9f9a-c9388f2176e0]   [1m[36mActiveStorage::Attachment Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "active_storage_attachments" WHERE "active_storage_attachments"."blob_id" = ? LIMIT ?[0m  [["blob_id", 3], ["LIMIT", 1]]
+[ActiveJob] [ActiveStorage::PurgeJob] [9520b5be-dd36-4d83-9f9a-c9388f2176e0]   [1m[36mActiveStorage::VariantRecord Load (0.3ms)[0m  [1m[34mSELECT "active_storage_variant_records".* FROM "active_storage_variant_records" WHERE "active_storage_variant_records"."blob_id" = ?[0m  [["blob_id", 3]]
+[ActiveJob] [ActiveStorage::PurgeJob] [9520b5be-dd36-4d83-9f9a-c9388f2176e0]   [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 3], ["record_type", "ActiveStorage::Blob"], ["name", "preview_image"], ["LIMIT", 1]]
+[ActiveJob] [ActiveStorage::PurgeJob] [9520b5be-dd36-4d83-9f9a-c9388f2176e0]   [1m[36mActiveStorage::Blob Destroy (1.3ms)[0m  [1m[31mDELETE FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ?[0m  [["id", 3]]
+Started GET "/books" for ::1 at 2023-01-31 11:23:11 +0700
+[ActiveJob] [ActiveStorage::PurgeJob] [9520b5be-dd36-4d83-9f9a-c9388f2176e0]   [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+[ActiveJob] [ActiveStorage::PurgeJob] [9520b5be-dd36-4d83-9f9a-c9388f2176e0] [36m  Disk Storage (2.7ms) [0m[31mDeleted file from key: wuuobvsgpz4b8n65hhcpvhayld0g[0m
+[ActiveJob] [ActiveStorage::PurgeJob] [9520b5be-dd36-4d83-9f9a-c9388f2176e0] [36m  Disk Storage (0.2ms) [0m[31mDeleted files by key prefix: variants/wuuobvsgpz4b8n65hhcpvhayld0g/[0m
+[ActiveJob] [ActiveStorage::PurgeJob] [9520b5be-dd36-4d83-9f9a-c9388f2176e0] Performed ActiveStorage::PurgeJob (Job ID: 9520b5be-dd36-4d83-9f9a-c9388f2176e0) from Async(default) in 64.2ms
+Processing by BooksController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:15
+  Rendered books/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1383)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 641.9ms | Allocations: 6150)
+Completed 200 OK in 653ms (Views: 647.9ms | ActiveRecord: 0.3ms | Allocations: 8430)
+
+
+Started DELETE "/books/4" for ::1 at 2023-01-31 11:23:20 +0700
+Processing by BooksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"4"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:64:in `set_book'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/books_controller.rb:53:in `destroy'
+  [1m[36mActiveStorage::Attachment Load (0.3ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 4], ["record_type", "Book"], ["name", "image"], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:53:in `destroy'
+  [1m[36mActiveStorage::Attachment Destroy (1.2ms)[0m  [1m[31mDELETE FROM "active_storage_attachments" WHERE "active_storage_attachments"."id" = ?[0m  [["id", 2]]
+  ↳ app/controllers/books_controller.rb:53:in `destroy'
+  [1m[36mBook Destroy (0.3ms)[0m  [1m[31mDELETE FROM "books" WHERE "books"."id" = ?[0m  [["id", 4]]
+  ↳ app/controllers/books_controller.rb:53:in `destroy'
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/books_controller.rb:53:in `destroy'
+  [1m[36mActiveStorage::Blob Load (0.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:53:in `destroy'
+[ActiveJob] Enqueued ActiveStorage::PurgeJob (Job ID: 108b7200-5892-4109-99fb-5b6747ab41ed) to Async(default) with arguments: #<GlobalID:0x0000000112dee0c8 @uri=#<URI::GID gid://thefirstrails/ActiveStorage::Blob/2>>
+Redirected to http://localhost:3000/books
+Completed 302 Found in 35ms (ActiveRecord: 3.6ms | Allocations: 6636)
+
+
+[ActiveJob] [ActiveStorage::PurgeJob] [108b7200-5892-4109-99fb-5b6747ab41ed]   [1m[36mActiveStorage::Blob Load (0.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+[ActiveJob] [ActiveStorage::PurgeJob] [108b7200-5892-4109-99fb-5b6747ab41ed] Performing ActiveStorage::PurgeJob (Job ID: 108b7200-5892-4109-99fb-5b6747ab41ed) from Async(default) enqueued at 2023-01-31T04:23:20Z with arguments: #<GlobalID:0x0000000112e07690 @uri=#<URI::GID gid://thefirstrails/ActiveStorage::Blob/2>>
+Started GET "/books" for ::1 at 2023-01-31 11:23:20 +0700
+[ActiveJob] [ActiveStorage::PurgeJob] [108b7200-5892-4109-99fb-5b6747ab41ed]   [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+[ActiveJob] [ActiveStorage::PurgeJob] [108b7200-5892-4109-99fb-5b6747ab41ed]   [1m[36mActiveStorage::Attachment Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "active_storage_attachments" WHERE "active_storage_attachments"."blob_id" = ? LIMIT ?[0m  [["blob_id", 2], ["LIMIT", 1]]
+[ActiveJob] [ActiveStorage::PurgeJob] [108b7200-5892-4109-99fb-5b6747ab41ed]   [1m[36mActiveStorage::VariantRecord Load (0.1ms)[0m  [1m[34mSELECT "active_storage_variant_records".* FROM "active_storage_variant_records" WHERE "active_storage_variant_records"."blob_id" = ?[0m  [["blob_id", 2]]
+[ActiveJob] [ActiveStorage::PurgeJob] [108b7200-5892-4109-99fb-5b6747ab41ed]   [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 2], ["record_type", "ActiveStorage::Blob"], ["name", "preview_image"], ["LIMIT", 1]]
+[ActiveJob] [ActiveStorage::PurgeJob] [108b7200-5892-4109-99fb-5b6747ab41ed]   [1m[36mActiveStorage::Blob Destroy (0.8ms)[0m  [1m[31mDELETE FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ?[0m  [["id", 2]]
+[ActiveJob] [ActiveStorage::PurgeJob] [108b7200-5892-4109-99fb-5b6747ab41ed]   [1m[36mTRANSACTION (4.9ms)[0m  [1m[36mcommit transaction[0m
+[ActiveJob] [ActiveStorage::PurgeJob] [108b7200-5892-4109-99fb-5b6747ab41ed] [36m  Disk Storage (1.1ms) [0m[31mDeleted file from key: 72ulzy0oar9r0clc3ee8lonehbn4[0m
+[ActiveJob] [ActiveStorage::PurgeJob] [108b7200-5892-4109-99fb-5b6747ab41ed] [36m  Disk Storage (0.1ms) [0m[31mDeleted files by key prefix: variants/72ulzy0oar9r0clc3ee8lonehbn4/[0m
+[ActiveJob] [ActiveStorage::PurgeJob] [108b7200-5892-4109-99fb-5b6747ab41ed] Performed ActiveStorage::PurgeJob (Job ID: 108b7200-5892-4109-99fb-5b6747ab41ed) from Async(default) in 31.96ms
+Processing by BooksController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:15
+  Rendered books/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 588)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 631.5ms | Allocations: 4780)
+Completed 200 OK in 640ms (Views: 632.0ms | ActiveRecord: 0.5ms | Allocations: 6364)
+
+
