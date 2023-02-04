@@ -7698,3 +7698,95 @@ Processing by BooksController#index as HTML
 Completed 200 OK in 488ms (Views: 484.1ms | ActiveRecord: 0.3ms | Allocations: 6668)
 
 
+Started GET "/" for 127.0.0.1 at 2023-02-04 23:46:13 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.6ms | Allocations: 285)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:14
+  Rendered layout layouts/application.html.erb (Duration: 924.6ms | Allocations: 34017)
+Completed 200 OK in 950ms (Views: 931.5ms | ActiveRecord: 1.1ms | Allocations: 37794)
+
+
+Started GET "/packs/js/application-e421b4aa3f716bebdab1.js" for 127.0.0.1 at 2023-02-04 23:46:14 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-e421b4aa3f716bebdab1.js"):
+  
+Started GET "/books" for 127.0.0.1 at 2023-02-04 23:46:18 +0700
+Processing by BooksController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:16
+  Rendered books/index.html.erb within layouts/application (Duration: 11.7ms | Allocations: 4447)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 567.7ms | Allocations: 8905)
+Completed 200 OK in 580ms (Views: 568.3ms | ActiveRecord: 1.4ms | Allocations: 12921)
+
+
+Started GET "/books/6" for 127.0.0.1 at 2023-02-04 23:46:20 +0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:66:in `set_book'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering books/show.html.erb within layouts/application
+  [1m[36mActiveStorage::Attachment Load (0.3ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = ? AND "active_storage_attachments"."record_type" = ? AND "active_storage_attachments"."name" = ? LIMIT ?[0m  [["record_id", 6], ["record_type", "Book"], ["name", "image"], ["LIMIT", 1]]
+  ↳ app/views/books/show.html.erb:19
+  [1m[36mActiveStorage::Blob Load (0.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/views/books/show.html.erb:20
+  [1m[36mBookReview Load (0.3ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews" WHERE "book_reviews"."book_id" = ? ORDER BY created_at DESC[0m  [["book_id", 6]]
+  ↳ app/views/books/show.html.erb:37
+  Rendered books/show.html.erb within layouts/application (Duration: 110.0ms | Allocations: 24124)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+/Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `exec': No such file or directory - /Users/hakudan/Documents/ruby_on_rails/it_nihongo3_rubyOnRails/thefirstrails/node_modules/.bin/webpack (Errno::ENOENT)
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:11:in `block in run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `chdir'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/webpack_runner.rb:10:in `run'
+	from /Users/hakudan/.gem/ruby/3.1.3/gems/webpacker-3.6.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:15:in `<main>'
+
+
+  Rendered layout layouts/application.html.erb (Duration: 595.5ms | Allocations: 28395)
+Completed 200 OK in 621ms (Views: 597.3ms | ActiveRecord: 4.4ms | Allocations: 34676)
+
+
+Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBDdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--1eab6f9881c2830c71a39e0d5764b8a701934d59/FSH-1673358375668-05.webp" for 127.0.0.1 at 2023-02-04 23:46:21 +0700
+Processing by ActiveStorage::Blobs::RedirectController#show as */*
+  Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBDdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--1eab6f9881c2830c71a39e0d5764b8a701934d59", "filename"=>"FSH-1673358375668-05"}
+  [1m[36mActiveStorage::Blob Load (0.8ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+[36m  Disk Storage (3.5ms) [0m[34mGenerated URL for file at key: 70tkqig5bztt1bqn75e5j4oeolr4 (http://127.0.0.1:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhOekIwYTNGcFp6VmllblIwTVdKeGJqYzFaVFZxTkc5bGIyeHlOQVk2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWVdGMGRHRmphRzFsYm5RN0lHWnBiR1Z1WVcxbFBTSkdVMGd0TVRZM016TTFPRE0zTlRZMk9DMHdOUzUzWldKd0lqc2dabWxzWlc1aGJXVXFQVlZVUmkwNEp5ZEdVMGd0TVRZM016TTFPRE0zTlRZMk9DMHdOUzUzWldKd0Jqc0dWRG9SWTI5dWRHVnVkRjkwZVhCbFNTSVBhVzFoWjJVdmQyVmljQVk3QmxRNkVYTmxjblpwWTJWZmJtRnRaVG9LYkc5allXdz0iLCJleHAiOiIyMDIzLTAyLTA0VDE2OjUxOjIxLjE2NVoiLCJwdXIiOiJibG9iX2tleSJ9fQ==--ead09158678b0e0ff6b93c6d79fb9e595ebe5f9e/FSH-1673358375668-05.webp)[0m
+Redirected to http://127.0.0.1:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhOekIwYTNGcFp6VmllblIwTVdKeGJqYzFaVFZxTkc5bGIyeHlOQVk2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWVdGMGRHRmphRzFsYm5RN0lHWnBiR1Z1WVcxbFBTSkdVMGd0TVRZM016TTFPRE0zTlRZMk9DMHdOUzUzWldKd0lqc2dabWxzWlc1aGJXVXFQVlZVUmkwNEp5ZEdVMGd0TVRZM016TTFPRE0zTlRZMk9DMHdOUzUzWldKd0Jqc0dWRG9SWTI5dWRHVnVkRjkwZVhCbFNTSVBhVzFoWjJVdmQyVmljQVk3QmxRNkVYTmxjblpwWTJWZmJtRnRaVG9LYkc5allXdz0iLCJleHAiOiIyMDIzLTAyLTA0VDE2OjUxOjIxLjE2NVoiLCJwdXIiOiJibG9iX2tleSJ9fQ==--ead09158678b0e0ff6b93c6d79fb9e595ebe5f9e/FSH-1673358375668-05.webp
+Completed 302 Found in 14ms (ActiveRecord: 0.8ms | Allocations: 2752)
+
+
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhOekIwYTNGcFp6VmllblIwTVdKeGJqYzFaVFZxTkc5bGIyeHlOQVk2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWVdGMGRHRmphRzFsYm5RN0lHWnBiR1Z1WVcxbFBTSkdVMGd0TVRZM016TTFPRE0zTlRZMk9DMHdOUzUzWldKd0lqc2dabWxzWlc1aGJXVXFQVlZVUmkwNEp5ZEdVMGd0TVRZM016TTFPRE0zTlRZMk9DMHdOUzUzWldKd0Jqc0dWRG9SWTI5dWRHVnVkRjkwZVhCbFNTSVBhVzFoWjJVdmQyVmljQVk3QmxRNkVYTmxjblpwWTJWZmJtRnRaVG9LYkc5allXdz0iLCJleHAiOiIyMDIzLTAyLTA0VDE2OjUxOjIxLjE2NVoiLCJwdXIiOiJibG9iX2tleSJ9fQ==--ead09158678b0e0ff6b93c6d79fb9e595ebe5f9e/FSH-1673358375668-05.webp" for 127.0.0.1 at 2023-02-04 23:46:21 +0700
+Processing by ActiveStorage::DiskController#show as */*
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"FSH-1673358375668-05"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms | Allocations: 318)
+
+
